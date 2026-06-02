@@ -881,21 +881,30 @@ output {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: 0.8rem 1rem;
+  gap: 0.65rem 0.9rem;
 }
 
-.social-icon-footer {
-  width: 38px;
-  height: 38px;
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.18);
+.footer-contact-link {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  max-width: 100%;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.88rem;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.footer-contact-link:hover {
   color: #a7f3d0;
-  box-shadow: none;
 }
 
-.social-icon-footer svg {
+.footer-contact-link svg {
+  flex: 0 0 auto;
   width: 18px;
   height: 18px;
+  fill: currentColor;
 }
 
 @media (max-width: 1020px) {
@@ -1040,6 +1049,10 @@ output {
   .footer-layout {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
   }
 }
 
