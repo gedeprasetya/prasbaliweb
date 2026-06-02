@@ -14,7 +14,19 @@ Static landing page for Gede Prasetya (Pras), a Bali-based web development and d
 - Auto language selection from the visitor's browser/device language, with location timezone as a fallback hint.
 - Manual language selector with support for Indonesian, English, Spanish, French, German, Japanese, and Chinese.
 - GSAP-powered animation through CDN, with a safe no-animation fallback if the CDN is unavailable.
+- Contact form can open WhatsApp directly with a prefilled project brief.
+- Email form submission is ready for Vercel Serverless Functions using Resend.
 - Static deployment, so no build step is required.
+
+## Email Form Setup
+
+The WhatsApp form works without setup. To make the Email button send directly to your inbox, add these environment variables in Vercel:
+
+- `RESEND_API_KEY` - your Resend API key
+- `CONTACT_TO_EMAIL` - `prasetyamaha99@gmail.com`
+- `CONTACT_FROM_EMAIL` - verified sender, for example `Pras Bali Web <hello@yourdomain.com>`
+
+If `RESEND_API_KEY` is not configured yet, the Email button falls back to opening the visitor's email app.
 
 ## Deploy to Vercel
 

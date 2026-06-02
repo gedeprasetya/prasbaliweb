@@ -739,12 +739,50 @@ output {
 }
 
 .contact-direct {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   gap: 0.7rem;
   margin-top: 1.3rem;
 }
 
-.contact-direct a {
+.social-icons {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--green-deep);
+  box-shadow: 0 10px 26px rgba(16, 28, 31, 0.06);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    color 180ms ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  border-color: rgba(15, 118, 110, 0.36);
+  color: var(--green);
+  box-shadow: 0 16px 34px rgba(16, 28, 31, 0.09);
+}
+
+.social-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.email-card {
+  flex: 1 1 250px;
   display: grid;
   gap: 0.1rem;
   padding: 0.9rem 1rem;
@@ -758,20 +796,20 @@ output {
     box-shadow 180ms ease;
 }
 
-.contact-direct a:hover {
+.email-card:hover {
   transform: translateY(-2px);
   border-color: rgba(15, 118, 110, 0.36);
   box-shadow: 0 16px 34px rgba(16, 28, 31, 0.09);
 }
 
-.contact-direct span {
+.email-card span {
   color: var(--teal);
   font-size: 0.78rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.contact-direct strong {
+.email-card strong {
   color: var(--ink);
   font-size: 0.98rem;
   line-height: 1.35;
@@ -782,9 +820,26 @@ output {
   padding: 1.45rem;
 }
 
+.form-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
 .brief-form .btn {
   width: 100%;
-  margin-top: 1rem;
+}
+
+.btn-email {
+  color: var(--green-deep);
+  border-color: var(--line);
+  background: var(--white);
+}
+
+.btn-email:hover {
+  border-color: rgba(15, 118, 110, 0.36);
+  background: var(--mist);
 }
 
 .form-status {
@@ -824,8 +879,23 @@ output {
 .footer-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-end;
   gap: 0.8rem 1rem;
+}
+
+.social-icon-footer {
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #a7f3d0;
+  box-shadow: none;
+}
+
+.social-icon-footer svg {
+  width: 18px;
+  height: 18px;
 }
 
 @media (max-width: 1020px) {
@@ -960,6 +1030,10 @@ output {
   }
 
   .segmented {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
     grid-template-columns: 1fr;
   }
 

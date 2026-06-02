@@ -1,5 +1,6 @@
 (() => {
   const businessEmail = "prasetyamaha99@gmail.com";
+  const whatsappNumber = "6281353443517";
   const localeStorageKey = "pras_locale_preference";
   const supportedLocales = ["id", "en", "es", "fr", "de", "ja", "zh"];
   const indonesianTimeZones = ["Asia/Jakarta", "Asia/Makassar", "Asia/Jayapura", "Asia/Pontianak"];
@@ -134,8 +135,14 @@
         form_details: "Project details",
         form_placeholder: "Tell me what you need, your goals, timeline, and budget range.",
         form_submit: "Send project brief",
+        form_submit_whatsapp: "Send via WhatsApp",
+        form_submit_email: "Send via Email",
         form_missing: "Please complete the required fields first.",
         form_opening: "Opening your email app with the project brief...",
+        form_whatsapp_opening: "Opening WhatsApp with your project brief...",
+        form_email_sending: "Sending your project brief...",
+        form_email_sent: "Thanks. Your project brief has been sent.",
+        form_email_fallback: "Email service is not ready yet. Opening your email app instead...",
         email_subject: "Project inquiry from {name}",
         email_name: "Name",
         email_email: "Email",
@@ -341,8 +348,14 @@
         form_details: "Detail proyek",
         form_placeholder: "Ceritakan kebutuhan, tujuan, timeline, dan range budget Anda.",
         form_submit: "Kirim brief proyek",
+        form_submit_whatsapp: "Kirim via WhatsApp",
+        form_submit_email: "Kirim via Email",
         form_missing: "Lengkapi field yang wajib diisi terlebih dahulu.",
         form_opening: "Membuka aplikasi email Anda dengan brief proyek...",
+        form_whatsapp_opening: "Membuka WhatsApp dengan brief proyek Anda...",
+        form_email_sending: "Mengirim brief proyek Anda...",
+        form_email_sent: "Terima kasih. Brief proyek Anda sudah terkirim.",
+        form_email_fallback: "Layanan email belum siap. Membuka aplikasi email Anda sebagai fallback...",
         email_subject: "Inquiry proyek dari {name}",
         email_name: "Nama",
         email_email: "Email",
@@ -857,28 +870,82 @@
     const briefForm = document.querySelector("#briefForm");
     const formStatus = document.querySelector("#formStatus");
 
-    briefForm?.addEventListener("submit", (event) => {
+    function getFormPayload() {
+      const formData = new FormData(briefForm);
+      const serviceSelect = document.querySelector("#contactService");
+
+      return {
+        name: formData.get("name").toString().trim(),
+        email: formData.get("email").toString().trim(),
+        service: serviceSelect?.selectedOptions[0]?.textContent.trim() || formData.get("service").toString(),
+        message: formData.get("message").toString().trim(),
+        locale: currentLocale
+      };
+    }
+
+    function buildBriefText(payload) {
+      return `${t("email_name")}: ${payload.name}\n${t("email_email")}: ${payload.email}\n${t("email_service")}: ${payload.service}\n\n${t("email_details")}:\n${payload.message}`;
+    }
+
+    function openMailDraft(payload) {
+      const subject = encodeURIComponent(t("email_subject").replace("{name}", payload.name));
+      const body = encodeURIComponent(buildBriefText(payload));
+      window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
+    }
+
+    function openWhatsapp(payload) {
+      const text = encodeURIComponent(
+        `${t("email_subject").replace("{name}", payload.name)}\n\n${buildBriefText(payload)}`
+      );
+
+      window.open(`https://wa.me/${whatsappNumber}?text=${text}`, "_blank", "noopener");
+    }
+
+    async function sendEmail(payload) {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+
+      const result = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(result.error || "Unable to send email");
+      }
+
+      return result;
+    }
+
+    briefForm?.addEventListener("submit", async (event) => {
       event.preventDefault();
 
-      const formData = new FormData(briefForm);
-      const name = formData.get("name").toString().trim();
-      const email = formData.get("email").toString().trim();
-      const message = formData.get("message").toString().trim();
-      const serviceSelect = document.querySelector("#contactService");
-      const service = serviceSelect?.selectedOptions[0]?.textContent.trim() || formData.get("service").toString();
+      const payload = getFormPayload();
+      const channel = event.submitter?.value || "whatsapp";
 
-      if (!name || !email || !message) {
+      if (!payload.name || !payload.email || !payload.message) {
         formStatus.textContent = t("form_missing");
         return;
       }
 
-      const subject = encodeURIComponent(t("email_subject").replace("{name}", name));
-      const body = encodeURIComponent(
-        `${t("email_name")}: ${name}\n${t("email_email")}: ${email}\n${t("email_service")}: ${service}\n\n${t("email_details")}:\n${message}`
-      );
+      if (channel === "whatsapp") {
+        formStatus.textContent = t("form_whatsapp_opening");
+        openWhatsapp(payload);
+        return;
+      }
 
-      formStatus.textContent = t("form_opening");
-      window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
+      formStatus.textContent = t("form_email_sending");
+
+      try {
+        await sendEmail(payload);
+        formStatus.textContent = t("form_email_sent");
+        briefForm.reset();
+      } catch {
+        formStatus.textContent = t("form_email_fallback");
+        openMailDraft(payload);
+      }
     });
   }
 
