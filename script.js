@@ -7,9 +7,9 @@
 
   const locales = {
     en: {
-      metaTitle: "Gede Prasetya (Pras) | Web Development Service in Bali",
+      metaTitle: "Pras | Web Development Service in Bali",
       metaDescription:
-        "Professional web development, WordPress, UI/UX, branding, and AI implementation service in Bali by Gede Prasetya (Pras). Flexible scope and pricing based on your needs and budget.",
+        "Professional web development, WordPress, UI/UX, branding, and AI implementation service in Bali by Pras. Flexible scope and pricing based on your needs and budget.",
       strings: {
         skip: "Skip to content",
         brand_role: "Digital Partner",
@@ -21,7 +21,7 @@
         language_label: "Language",
         language_auto: "Auto",
         hero_eyebrow: "Professional web development service in Bali",
-        hero_title: "Gede Prasetya (Pras)",
+        hero_title: "Pras",
         hero_lead:
           "I help business owners, professionals, and service providers build a credible digital presence with websites, apps, branding, UI/UX, and AI-supported solutions.",
         hero_cta_primary: "Start a project",
@@ -221,9 +221,9 @@
       }
     },
     id: {
-      metaTitle: "Gede Prasetya (Pras) | Jasa Web Development Profesional di Bali",
+      metaTitle: "Pras | Jasa Web Development Profesional di Bali",
       metaDescription:
-        "Jasa web development profesional, WordPress, UI/UX, branding, dan implementasi AI di Bali oleh Gede Prasetya (Pras). Scope dan harga fleksibel sesuai kebutuhan dan budget.",
+        "Jasa web development profesional, WordPress, UI/UX, branding, dan implementasi AI di Bali oleh Pras. Scope dan harga fleksibel sesuai kebutuhan dan budget.",
       strings: {
         skip: "Lewati ke konten",
         brand_role: "Partner Digital",
@@ -235,7 +235,7 @@
         language_label: "Bahasa",
         language_auto: "Otomatis",
         hero_eyebrow: "Jasa web development profesional di Bali",
-        hero_title: "Gede Prasetya (Pras)",
+        hero_title: "Pras",
         hero_lead:
           "Saya membantu pemilik bisnis, profesional, dan penyedia jasa membangun kehadiran digital yang kredibel melalui website, aplikasi, branding, UI/UX, dan solusi berbasis AI.",
         hero_cta_primary: "Mulai proyek",
@@ -437,9 +437,9 @@
 
   const extraLocaleStrings = {
     es: {
-      metaTitle: "Gede Prasetya (Pras) | Servicio profesional de desarrollo web en Bali",
+      metaTitle: "Pras | Servicio profesional de desarrollo web en Bali",
       metaDescription:
-        "Desarrollo web profesional, WordPress, UI/UX, branding e implementacion de IA en Bali por Gede Prasetya (Pras). Alcance y precio flexibles segun tus necesidades y presupuesto.",
+        "Desarrollo web profesional, WordPress, UI/UX, branding e implementacion de IA en Bali por Pras. Alcance y precio flexibles segun tus necesidades y presupuesto.",
       strings: {
         brand_role: "Socio digital",
         nav_services: "Servicios",
@@ -473,9 +473,9 @@
       }
     },
     fr: {
-      metaTitle: "Gede Prasetya (Pras) | Service professionnel de developpement web a Bali",
+      metaTitle: "Pras | Service professionnel de developpement web a Bali",
       metaDescription:
-        "Developpement web professionnel, WordPress, UI/UX, branding et implementation IA a Bali par Gede Prasetya (Pras). Portee et prix flexibles selon vos besoins et votre budget.",
+        "Developpement web professionnel, WordPress, UI/UX, branding et implementation IA a Bali par Pras. Portee et prix flexibles selon vos besoins et votre budget.",
       strings: {
         brand_role: "Partenaire digital",
         nav_services: "Services",
@@ -509,9 +509,9 @@
       }
     },
     de: {
-      metaTitle: "Gede Prasetya (Pras) | Professioneller Webentwicklungsservice in Bali",
+      metaTitle: "Pras | Professioneller Webentwicklungsservice in Bali",
       metaDescription:
-        "Professionelle Webentwicklung, WordPress, UI/UX, Branding und KI-Implementierung in Bali von Gede Prasetya (Pras). Umfang und Preis flexibel nach Bedarf und Budget.",
+        "Professionelle Webentwicklung, WordPress, UI/UX, Branding und KI-Implementierung in Bali von Pras. Umfang und Preis flexibel nach Bedarf und Budget.",
       strings: {
         brand_role: "Digitaler Partner",
         nav_services: "Leistungen",
@@ -545,9 +545,9 @@
       }
     },
     ja: {
-      metaTitle: "Gede Prasetya (Pras) | バリのプロフェッショナルWeb開発サービス",
+      metaTitle: "Pras | バリのプロフェッショナルWeb開発サービス",
       metaDescription:
-        "Gede Prasetya (Pras) によるバリ拠点のWeb開発、WordPress、UI/UX、ブランディング、AI導入。ニーズと予算に合わせて柔軟に設計します。",
+        "Pras によるバリ拠点のWeb開発、WordPress、UI/UX、ブランディング、AI導入。ニーズと予算に合わせて柔軟に設計します。",
       strings: {
         brand_role: "デジタルパートナー",
         nav_services: "サービス",
@@ -581,9 +581,9 @@
       }
     },
     zh: {
-      metaTitle: "Gede Prasetya (Pras) | 巴厘岛专业网站开发服务",
+      metaTitle: "Pras | 巴厘岛专业网站开发服务",
       metaDescription:
-        "Gede Prasetya (Pras) 在巴厘岛提供网站开发、WordPress、UI/UX、品牌设计与 AI 实施服务。范围和价格可根据需求与预算调整。",
+        "Pras 在巴厘岛提供网站开发、WordPress、UI/UX、品牌设计与 AI 实施服务。范围和价格可根据需求与预算调整。",
       strings: {
         brand_role: "数字合作伙伴",
         nav_services: "服务",

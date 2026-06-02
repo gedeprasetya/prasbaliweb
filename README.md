@@ -1,6 +1,6 @@
 # Pras Bali Web
 
-Static landing page for Gede Prasetya (Pras), a Bali-based web development and digital solutions service.
+Static landing page for Pras, a Bali-based web development and digital solutions service.
 
 ## Files
 
@@ -8,12 +8,14 @@ Static landing page for Gede Prasetya (Pras), a Bali-based web development and d
 - `styles.css` - responsive visual design
 - `script.js` - language detection, GSAP animation hooks, mobile navigation, project planner, and contact mailto flow
 - `assets/hero-workspace.png` - generated project hero image
+- `assets/xp-wallpaper.png` - original XP-inspired nostalgia wallpaper
 
 ## Features
 
 - Auto language selection from the visitor's browser/device language, with location timezone as a fallback hint.
 - Manual language selector with support for Indonesian, English, Spanish, French, German, Japanese, and Chinese.
 - GSAP-powered animation through CDN, with a safe no-animation fallback if the CDN is unavailable.
+- Windows XP-inspired nostalgic interface concept with original wallpaper artwork.
 - Contact form can open WhatsApp directly with a prefilled project brief.
 - Email form submission is ready for Vercel Serverless Functions using Resend.
 - Static deployment, so no build step is required.
