@@ -6,16 +6,17 @@ Static landing page for Pras, a Bali-based web development and digital solutions
 
 - `index.html` - page structure and content
 - `styles.css` - responsive visual design
-- `script.js` - language detection, GSAP animation hooks, mobile navigation, project planner, and contact mailto flow
+- `script.js` - language detection, desktop window interactions, taskbar clock, WhatsApp and email form flow
 - `assets/hero-workspace.png` - generated project hero image
 - `assets/xp-wallpaper.png` - original XP-inspired nostalgia wallpaper
+- `assets/pras-desktop-wallpaper.png` - final desktop wallpaper with PRAS hill typography
 
 ## Features
 
 - Auto language selection from the visitor's browser/device language, with location timezone as a fallback hint.
-- Manual language selector with support for Indonesian, English, Spanish, French, German, Japanese, and Chinese.
+- Multilingual locale copy for Indonesian, English, Spanish, French, German, Japanese, and Chinese, selected automatically from the visitor's browser/device language.
 - GSAP-powered animation through CDN, with a safe no-animation fallback if the CDN is unavailable.
-- Windows XP-inspired nostalgic interface concept with original wallpaper artwork.
+- Windows XP-inspired nostalgic desktop concept with shortcut icons, start bar, system tray, and popup windows.
 - Contact form can open WhatsApp directly with a prefilled project brief.
 - Email form submission is ready for Vercel Serverless Functions using Resend.
 - Static deployment, so no build step is required.

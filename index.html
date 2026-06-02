@@ -8,15 +8,15 @@
       name="description"
       content="Professional web development, WordPress, UI/UX, branding, and AI implementation service in Bali by Pras. Flexible scope and pricing based on your needs and budget."
     />
-    <meta name="theme-color" content="#102624" />
+    <meta name="theme-color" content="#0b4fd0" />
     <meta property="og:title" content="Pras | Web Development Service in Bali" />
     <meta
       property="og:description"
-      content="A long-term digital partner for business owners, professionals, and service providers who want a credible and trustworthy online presence."
+      content="A nostalgic desktop-style portfolio for Pras, a Bali-based digital partner for websites, apps, branding, UI/UX, and AI implementation."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/hero-workspace.png" />
-    <link rel="preload" href="assets/xp-wallpaper.png" as="image" />
+    <meta property="og:image" content="assets/pras-desktop-wallpaper.png" />
+    <link rel="preload" href="assets/pras-desktop-wallpaper.png" as="image" />
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
@@ -40,443 +40,168 @@
         ]
       }
     </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
-      defer
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"
-      defer
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <a class="skip-link" href="#desktop" data-i18n="skip">Skip to desktop</a>
 
-    <header class="site-header" id="top">
-      <nav class="nav container" aria-label="Main navigation">
-        <a class="brand" href="#top" aria-label="Pras home">
-          <span class="brand-mark">P</span>
-          <span>
-            <strong>Pras</strong>
-            <small data-i18n="brand_role">Digital Partner</small>
+    <main class="desktop" id="desktop" aria-label="Pras desktop">
+      <section class="desktop-shortcuts" aria-label="Desktop shortcuts">
+        <button class="desktop-icon" type="button" data-open-window="about">
+          <span class="icon-art icon-about" aria-hidden="true">
+            <svg viewBox="0 0 64 64">
+              <circle cx="32" cy="32" r="28" />
+              <path d="M32 7v50" />
+              <path d="M21 18 32 7l11 11" />
+              <path d="m21 46 11 11 11-11" />
+              <path d="M8 32h48" />
+            </svg>
           </span>
-        </a>
-
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span class="sr-only" data-i18n="menu_open">Open menu</span>
+          <span data-i18n="shortcut_about">About Me</span>
         </button>
 
-        <div class="nav-menu" id="nav-menu">
-          <a href="#services" data-i18n="nav_services">Services</a>
-          <a href="#pricing" data-i18n="nav_pricing">Pricing</a>
-          <a href="#process" data-i18n="nav_process">Process</a>
-          <a href="#contact" data-i18n="nav_contact">Contact</a>
-          <label class="language-shell" for="languageSelect">
-            <span data-i18n="language_label">Language</span>
-            <select id="languageSelect" aria-label="Language">
-              <option value="auto" data-i18n="language_auto">Auto</option>
-              <option value="id">Indonesia</option>
-              <option value="en">English</option>
-              <option value="es">Espanol</option>
-              <option value="fr">Francais</option>
-              <option value="de">Deutsch</option>
-              <option value="ja">日本語</option>
-              <option value="zh">中文</option>
-            </select>
-          </label>
-        </div>
-      </nav>
-    </header>
-
-    <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-shade"></div>
-        <div class="desktop-icons" aria-hidden="true">
-          <span>
-            <b>WWW</b>
-            <small>Web.exe</small>
+        <button class="desktop-icon" type="button" data-open-window="resume">
+          <span class="icon-art icon-pdf" aria-hidden="true">
+            <span>PDF</span>
           </span>
-          <span>
-            <b>CMS</b>
-            <small>CMS</small>
+          <span data-i18n="shortcut_resume">My Resume</span>
+        </button>
+
+        <button class="desktop-icon" type="button" data-open-window="projects">
+          <span class="icon-art icon-browser" aria-hidden="true">e</span>
+          <span data-i18n="shortcut_projects">My Projects</span>
+        </button>
+
+        <button class="desktop-icon" type="button" data-open-window="contact">
+          <span class="icon-art icon-contact" aria-hidden="true">
+            <svg viewBox="0 0 64 64">
+              <path d="M9 18h46v30H9z" />
+              <path d="m9 18 23 18 23-18" />
+              <path d="M12 49 2 39l10-10" />
+              <path d="M52 49l10-10-10-10" />
+            </svg>
           </span>
-          <span>
-            <b>AI</b>
-            <small>AI</small>
-          </span>
+          <span data-i18n="shortcut_contact">Contact Me</span>
+        </button>
+      </section>
+
+      <section class="xp-window" id="window-about" data-window="about" aria-label="About Me" hidden>
+        <div class="xp-titlebar">
+          <span data-i18n="window_about_title">About Me</span>
+          <div class="window-controls">
+            <button type="button" data-minimize-window aria-label="Minimize">_</button>
+            <button type="button" data-close-window aria-label="Close">x</button>
+          </div>
         </div>
-        <div class="container hero-content">
-          <p class="eyebrow hero-line" data-i18n="hero_eyebrow">
-            Professional web development service in Bali
+        <div class="xp-window-body about-body">
+          <h1>Pras</h1>
+          <p data-i18n="about_intro">
+            A Bali-based digital partner helping business owners, professionals, and service
+            providers build a credible online presence.
           </p>
-          <h1 id="hero-title" class="hero-line" data-i18n="hero_title">
-            Pras
-          </h1>
-          <p class="hero-lead hero-line" data-i18n="hero_lead">
-            I help business owners, professionals, and service providers build a credible digital
-            presence with websites, apps, branding, UI/UX, and AI-supported solutions.
+          <div class="xp-status-grid">
+            <div>
+              <strong data-i18n="about_stat_1">3+ years</strong>
+              <span data-i18n="about_stat_1_label">web development experience</span>
+            </div>
+            <div>
+              <strong data-i18n="about_stat_2">Information Systems</strong>
+              <span data-i18n="about_stat_2_label">bachelor degree background</span>
+            </div>
+            <div>
+              <strong data-i18n="about_stat_3">Flexible scope</strong>
+              <span data-i18n="about_stat_3_label">adjusted to your needs and budget</span>
+            </div>
+          </div>
+          <p data-i18n="about_body">
+            I build websites, web apps, CMS systems, UI/UX, brand foundations, and AI-supported
+            workflows with a long-term mindset.
           </p>
-          <div class="hero-actions hero-line" aria-label="Primary actions">
-            <a class="btn btn-primary" href="#contact" data-i18n="hero_cta_primary">Start a project</a>
-            <a class="btn btn-secondary" href="#services" data-i18n="hero_cta_secondary">Explore services</a>
-          </div>
-
-          <div class="hero-proof" aria-label="Experience highlights">
-            <div class="hero-proof-item">
-              <strong data-i18n="hero_stat_1_value">3+ years</strong>
-              <span data-i18n="hero_stat_1_label">web development experience</span>
-            </div>
-            <div class="hero-proof-item">
-              <strong data-i18n="hero_stat_2_value">Information Systems</strong>
-              <span data-i18n="hero_stat_2_label">bachelor degree background</span>
-            </div>
-            <div class="hero-proof-item">
-              <strong data-i18n="hero_stat_3_value">Custom scope</strong>
-              <span data-i18n="hero_stat_3_label">adjusted to needs and budget</span>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section class="capability-strip" aria-label="Trusted digital support">
-        <div class="container strip-layout">
-          <p data-i18n="strip_label">Selected capabilities</p>
-          <div class="strip-track" aria-label="Technology stack">
-            <span>React.js</span>
-            <span>Vue</span>
-            <span>Next.js</span>
-            <span>Laravel</span>
-            <span>WordPress</span>
-            <span>Astro</span>
-            <span>AI</span>
-            <span>UI/UX</span>
-            <span>Branding</span>
+      <section class="xp-window" id="window-resume" data-window="resume" aria-label="My Resume" hidden>
+        <div class="xp-titlebar">
+          <span data-i18n="window_resume_title">My Resume</span>
+          <div class="window-controls">
+            <button type="button" data-minimize-window aria-label="Minimize">_</button>
+            <button type="button" data-close-window aria-label="Close">x</button>
           </div>
         </div>
-      </section>
-
-      <section class="section intro-section" data-animate>
-        <div class="container intro-layout">
-          <div>
-            <p class="section-kicker" data-i18n="intro_kicker">What I believe</p>
-            <h2 data-i18n="intro_title">
-              A website should make people trust you before they contact you.
-            </h2>
-          </div>
-          <div class="intro-copy">
-            <p data-i18n="intro_body_1">
-              Your digital presence is often the first proof that your business is serious. I build
-              practical, well-designed solutions that help you look credible, communicate clearly,
-              and convert attention into real conversations.
-            </p>
-            <p data-i18n="intro_body_2">
-              Whether you need a simple business website, a custom web application, WordPress
-              development, branding support, or AI implementation, I shape the work around your
-              actual goals instead of forcing you into a fixed package.
+        <div class="xp-window-body">
+          <h2 data-i18n="resume_title">Capability Brief</h2>
+          <ul class="xp-list">
+            <li>React.js, Vue, Next.js, Astro.js</li>
+            <li>Laravel, WordPress, Headless WordPress</li>
+            <li>UI/UX, Logo Design, Brand Guidelines</li>
+            <li>AI implementation and workflow automation</li>
+          </ul>
+          <div class="xp-note">
+            <strong data-i18n="resume_note_title">Pricing note</strong>
+            <p data-i18n="resume_note_body">
+              Scope and pricing are adjusted based on goals, timeline, complexity, and budget.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="section section-muted" id="services" aria-labelledby="services-title">
-        <div class="container">
-          <div class="section-heading" data-animate>
-            <p class="section-kicker" data-i18n="services_kicker">Services</p>
-            <h2 id="services-title" data-i18n="services_title">
-              All the digital support your brand needs to feel real.
-            </h2>
-            <p data-i18n="services_body">
-              A focused set of web, design, and implementation services for businesses that need
-              reliable execution without juggling many vendors.
-            </p>
+      <section class="xp-window xp-window-wide" id="window-projects" data-window="projects" aria-label="My Projects" hidden>
+        <div class="xp-titlebar">
+          <span data-i18n="window_projects_title">My Projects</span>
+          <div class="window-controls">
+            <button type="button" data-minimize-window aria-label="Minimize">_</button>
+            <button type="button" data-close-window aria-label="Close">x</button>
           </div>
-
-          <div class="service-grid">
-            <article class="service-card" data-animate>
-              <span class="service-number">01</span>
-              <h3 data-i18n="service_custom_title">Custom Websites & Web Apps</h3>
-              <p data-i18n="service_custom_body">
-                Fast, responsive, conversion-focused websites and web applications built with
-                modern tools.
-              </p>
-              <ul data-i18n-list="service_custom_list">
-                <li>React.js, Vue.js, Next.js</li>
-                <li>Laravel and Astro.js</li>
-                <li>Landing pages, dashboards, booking flows</li>
-              </ul>
+        </div>
+        <div class="xp-window-body">
+          <h2 data-i18n="projects_title">Digital Services</h2>
+          <div class="project-grid">
+            <article>
+              <h3 data-i18n="project_1_title">Custom Websites</h3>
+              <p data-i18n="project_1_body">Credible, responsive websites for business and service brands.</p>
             </article>
-
-            <article class="service-card" data-animate>
-              <span class="service-number">02</span>
-              <h3 data-i18n="service_cms_title">WordPress & Headless CMS</h3>
-              <p data-i18n="service_cms_body">
-                Manageable websites for owners and teams who need control over content without
-                losing performance.
-              </p>
-              <ul data-i18n-list="service_cms_list">
-                <li>WordPress development</li>
-                <li>Headless WordPress setup</li>
-                <li>Content structure and maintenance</li>
-              </ul>
+            <article>
+              <h3 data-i18n="project_2_title">Web Applications</h3>
+              <p data-i18n="project_2_body">Modern front-end and back-end systems for custom workflows.</p>
             </article>
-
-            <article class="service-card" data-animate>
-              <span class="service-number">03</span>
-              <h3 data-i18n="service_design_title">UI/UX & Brand Foundation</h3>
-              <p data-i18n="service_design_body">
-                Interfaces and brand systems that make your business easier to understand,
-                remember, and trust.
-              </p>
-              <ul data-i18n-list="service_design_list">
-                <li>Website UI/UX design</li>
-                <li>Logo design</li>
-                <li>Brand guidelines</li>
-              </ul>
+            <article>
+              <h3 data-i18n="project_3_title">CMS & WordPress</h3>
+              <p data-i18n="project_3_body">Manageable content systems, including headless WordPress.</p>
             </article>
-
-            <article class="service-card" data-animate>
-              <span class="service-number">04</span>
-              <h3 data-i18n="service_ai_title">AI Implementation</h3>
-              <p data-i18n="service_ai_body">
-                Useful AI features and automation that support your workflow, content, and customer
-                experience.
-              </p>
-              <ul data-i18n-list="service_ai_list">
-                <li>AI chat and assistant flows</li>
-                <li>Content and admin automation</li>
-                <li>Custom integrations</li>
-              </ul>
+            <article>
+              <h3 data-i18n="project_4_title">Design & AI</h3>
+              <p data-i18n="project_4_body">UI/UX, brand guidelines, logo design, and practical AI features.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="pricing" aria-labelledby="pricing-title">
-        <div class="container pricing-layout">
-          <div class="pricing-copy" data-animate>
-            <p class="section-kicker" data-i18n="pricing_kicker">Flexible pricing</p>
-            <h2 id="pricing-title" data-i18n="pricing_title">
-              The scope adjusts to your needs, goals, and budget.
-            </h2>
-            <p data-i18n="pricing_body">
-              Good digital work should be clear and realistic. I start by understanding what you
-              need, what matters most, and what budget range feels comfortable. From there, we shape
-              the right version of the project together.
-            </p>
-            <div class="pricing-points">
-              <div>
-                <strong data-i18n="pricing_point_1_title">No one-size package</strong>
-                <span data-i18n="pricing_point_1_body">Every proposal is based on real scope, not guesswork.</span>
-              </div>
-              <div>
-                <strong data-i18n="pricing_point_2_title">Transparent priorities</strong>
-                <span data-i18n="pricing_point_2_body">We decide what must be included now and what can grow later.</span>
-              </div>
-              <div>
-                <strong data-i18n="pricing_point_3_title">Long-term value</strong>
-                <span data-i18n="pricing_point_3_body">Build a foundation that can keep improving after launch.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="planner-panel" aria-label="Project fit planner" data-animate>
-            <div class="planner-head">
-              <p class="section-kicker" data-i18n="planner_kicker">Project fit planner</p>
-              <h3 data-i18n="planner_title">Shape the first conversation</h3>
-            </div>
-
-            <label class="field" for="projectType">
-              <span data-i18n="planner_need_label">What do you need?</span>
-              <select id="projectType">
-                <option value="business" data-i18n="project_business">Business website</option>
-                <option value="custom" data-i18n="project_custom">Custom web application</option>
-                <option value="wordpress" data-i18n="project_wordpress">WordPress or CMS</option>
-                <option value="brand" data-i18n="project_brand">Branding and UI/UX</option>
-                <option value="ai" data-i18n="project_ai">AI implementation</option>
-              </select>
-            </label>
-
-            <label class="field" for="budgetRange">
-              <span data-i18n="planner_budget_label">Budget comfort</span>
-              <input id="budgetRange" type="range" min="1" max="4" step="1" value="2" />
-              <output id="budgetLabel" for="budgetRange">Lean but professional</output>
-            </label>
-
-            <div class="field">
-              <span data-i18n="planner_timeline_label">Timeline</span>
-              <div class="segmented" role="group" aria-label="Timeline preference">
-                <button type="button" class="active" data-timeline="steady" data-i18n="timeline_steady">Steady</button>
-                <button type="button" data-timeline="soon" data-i18n="timeline_soon">Soon</button>
-                <button type="button" data-timeline="growth" data-i18n="timeline_growth">Long-term</button>
-              </div>
-            </div>
-
-            <label class="field" for="priorityType">
-              <span data-i18n="planner_priority_label">Main priority</span>
-              <select id="priorityType">
-                <option value="trust" data-i18n="priority_trust">Build trust and credibility</option>
-                <option value="leads" data-i18n="priority_leads">Get more leads</option>
-                <option value="manage" data-i18n="priority_manage">Manage content easily</option>
-                <option value="system" data-i18n="priority_system">Create a custom system</option>
-              </select>
-            </label>
-
-            <div class="planner-result" aria-live="polite">
-              <span id="fitLabel" data-i18n="fit_label">Recommended direction</span>
-              <h4 id="fitTitle">Credible launch website</h4>
-              <ul id="fitList">
-                <li>Professional homepage and service pages</li>
-                <li>Clear message, trust sections, and contact flow</li>
-                <li>Built so it can grow after launch</li>
-              </ul>
-            </div>
+      <section class="xp-window xp-window-contact" id="window-contact" data-window="contact" aria-label="Contact Me" hidden>
+        <div class="xp-titlebar">
+          <span data-i18n="window_contact_title">Contact Me</span>
+          <div class="window-controls">
+            <button type="button" data-minimize-window aria-label="Minimize">_</button>
+            <button type="button" data-close-window aria-label="Close">x</button>
           </div>
         </div>
-      </section>
-
-      <section class="section section-muted" id="process" aria-labelledby="process-title">
-        <div class="container">
-          <div class="section-heading" data-animate>
-            <p class="section-kicker" data-i18n="process_kicker">Process</p>
-            <h2 id="process-title" data-i18n="process_title">
-              Clear work, calm communication, useful results.
-            </h2>
-            <p data-i18n="process_body">
-              The process keeps the project moving without making you feel lost in technical
-              details.
-            </p>
+        <div class="xp-window-body">
+          <div class="contact-row">
+            <a href="https://wa.me/6281353443517" target="_blank" rel="noopener">
+              <span class="mini-icon whatsapp-dot"></span>
+              +62 8135 3443 517
+            </a>
+            <a href="mailto:prasetyamaha99@gmail.com">
+              <span class="mini-icon mail-dot"></span>
+              prasetyamaha99@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/gedeprasetya/" target="_blank" rel="noopener">
+              <span class="mini-icon linkedin-dot"></span>
+              https://www.linkedin.com/in/gedeprasetya/
+            </a>
           </div>
 
-          <div class="process-list">
-            <article data-animate>
-              <span>01</span>
-              <h3 data-i18n="process_1_title">Discovery</h3>
-              <p data-i18n="process_1_body">We clarify your business, audience, goals, budget range, and what success means.</p>
-            </article>
-            <article data-animate>
-              <span>02</span>
-              <h3 data-i18n="process_2_title">Plan</h3>
-              <p data-i18n="process_2_body">I recommend the right scope, structure, technology, and realistic launch path.</p>
-            </article>
-            <article data-animate>
-              <span>03</span>
-              <h3 data-i18n="process_3_title">Design</h3>
-              <p data-i18n="process_3_body">We shape the visual direction, content flow, and user experience before building.</p>
-            </article>
-            <article data-animate>
-              <span>04</span>
-              <h3 data-i18n="process_4_title">Build</h3>
-              <p data-i18n="process_4_body">I develop, test, refine, and prepare the website or system for launch.</p>
-            </article>
-            <article data-animate>
-              <span>05</span>
-              <h3 data-i18n="process_5_title">Support</h3>
-              <p data-i18n="process_5_body">After launch, we can keep improving performance, content, features, and growth.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section audience-section" aria-labelledby="audience-title">
-        <div class="container audience-layout">
-          <div data-animate>
-            <p class="section-kicker" data-i18n="audience_kicker">Who I help</p>
-            <h2 id="audience-title" data-i18n="audience_title">Built for people who sell trust.</h2>
-          </div>
-          <div class="audience-grid">
-            <article data-animate>
-              <h3 data-i18n="audience_1_title">Business owners</h3>
-              <p data-i18n="audience_1_body">Look more credible, present your offer clearly, and make it easier to contact you.</p>
-            </article>
-            <article data-animate>
-              <h3 data-i18n="audience_2_title">Professionals</h3>
-              <p data-i18n="audience_2_body">Turn your expertise into a polished online presence that supports your reputation.</p>
-            </article>
-            <article data-animate>
-              <h3 data-i18n="audience_3_title">Service providers</h3>
-              <p data-i18n="audience_3_body">Explain your value, show proof, and help potential clients feel confident.</p>
-            </article>
-            <article data-animate>
-              <h3 data-i18n="audience_4_title">Growing teams</h3>
-              <p data-i18n="audience_4_body">Improve your systems, CMS, automation, and digital workflows as your needs evolve.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="relationship-section" aria-labelledby="relationship-title">
-        <div class="container relationship-content" data-animate>
-          <p class="section-kicker" data-i18n="relationship_kicker">Long-term relationship</p>
-          <h2 id="relationship-title" data-i18n="relationship_title">
-            I am here to be your digital partner, not just a one-time developer.
-          </h2>
-          <p data-i18n="relationship_body">
-            The best results come from steady improvement. I can help you launch the first version,
-            learn from real users, and keep building the digital presence your business deserves.
-          </p>
-          <a class="btn btn-light" href="#contact" data-i18n="relationship_cta">Talk about your project</a>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="container contact-layout">
-          <div class="contact-copy" data-animate>
-            <p class="section-kicker" data-i18n="contact_kicker">Start here</p>
-            <h2 id="contact-title" data-i18n="contact_title">Tell me what you want to build.</h2>
-            <p data-i18n="contact_body">
-              Share your goal, your timeline, and your budget comfort. I will help you turn it into
-              a practical plan that fits where your business is right now.
-            </p>
-            <div class="contact-notes">
-              <span data-i18n="contact_note_1">Based in Bali</span>
-              <span data-i18n="contact_note_2">Remote-friendly collaboration</span>
-              <span data-i18n="contact_note_3">Custom scope and proposal</span>
-            </div>
-            <div class="contact-direct" aria-label="Direct contact">
-              <div class="social-icons">
-                <a
-                  class="social-icon"
-                  href="https://wa.me/6281353443517"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="WhatsApp"
-                  title="WhatsApp"
-                >
-                  <svg aria-hidden="true" viewBox="0 0 24 24">
-                    <path
-                      d="M20.52 3.48A11.77 11.77 0 0 0 12.05 0C5.51 0 .2 5.31.2 11.85c0 2.08.54 4.12 1.58 5.91L0 24l6.4-1.68a11.86 11.86 0 0 0 5.65 1.44h.01c6.53 0 11.84-5.31 11.84-11.85 0-3.16-1.23-6.14-3.38-8.43Zm-8.47 18.75h-.01a9.84 9.84 0 0 1-5.02-1.38l-.36-.22-3.8 1 1.01-3.71-.24-.38a9.82 9.82 0 0 1-1.5-5.2c0-5.43 4.42-9.85 9.86-9.85 2.63 0 5.1 1.03 6.96 2.89a9.78 9.78 0 0 1 2.89 6.96c0 5.44-4.42 9.85-9.79 9.85Zm5.4-7.36c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.95 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.77-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z"
-                    />
-                  </svg>
-                  <span class="sr-only">WhatsApp</span>
-                </a>
-                <a
-                  class="social-icon"
-                  href="https://www.linkedin.com/in/gedeprasetya/"
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="LinkedIn"
-                  title="LinkedIn"
-                >
-                  <svg aria-hidden="true" viewBox="0 0 24 24">
-                    <path
-                      d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
-                    />
-                  </svg>
-                  <span class="sr-only">LinkedIn</span>
-                </a>
-              </div>
-              <a class="email-card" href="mailto:prasetyamaha99@gmail.com">
-                <span data-i18n="contact_email_label">Email</span>
-                <strong>prasetyamaha99@gmail.com</strong>
-              </a>
-            </div>
-          </div>
-
-          <form class="brief-form" id="briefForm" data-animate>
+          <form class="brief-form" id="briefForm">
             <label for="contactName">
               <span data-i18n="form_name">Your name</span>
               <input id="contactName" type="text" name="name" autocomplete="name" required />
@@ -501,29 +226,17 @@
               <textarea
                 id="contactMessage"
                 name="message"
-                rows="5"
-                placeholder="Tell me what you need, your goals, timeline, and budget range."
+                rows="4"
                 data-i18n-placeholder="form_placeholder"
+                placeholder="Tell me what you need, your goals, timeline, and budget range."
                 required
               ></textarea>
             </label>
             <div class="form-actions">
-              <button
-                class="btn btn-primary"
-                type="submit"
-                name="channel"
-                value="whatsapp"
-                data-i18n="form_submit_whatsapp"
-              >
+              <button type="submit" name="channel" value="whatsapp" data-i18n="form_submit_whatsapp">
                 Send via WhatsApp
               </button>
-              <button
-                class="btn btn-email"
-                type="submit"
-                name="channel"
-                value="email"
-                data-i18n="form_submit_email"
-              >
+              <button type="submit" name="channel" value="email" data-i18n="form_submit_email">
                 Send via Email
               </button>
             </div>
@@ -531,51 +244,29 @@
           </form>
         </div>
       </section>
+
+      <section class="start-menu" id="startMenu" aria-label="Start menu" hidden>
+        <div class="start-menu-head">
+          <span class="start-avatar">P</span>
+          <strong>Pras</strong>
+        </div>
+        <button type="button" data-open-window="about" data-i18n="shortcut_about">About Me</button>
+        <button type="button" data-open-window="projects" data-i18n="shortcut_projects">My Projects</button>
+        <button type="button" data-open-window="contact" data-i18n="shortcut_contact">Contact Me</button>
+      </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-layout">
-        <div>
-          <strong>Pras</strong>
-          <span data-i18n="footer_body">Professional web development and digital solutions in Bali.</span>
-        </div>
-        <div class="footer-links">
-          <a
-            class="footer-contact-link"
-            href="https://wa.me/6281353443517"
-            target="_blank"
-            rel="noopener"
-          >
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path
-                d="M20.52 3.48A11.77 11.77 0 0 0 12.05 0C5.51 0 .2 5.31.2 11.85c0 2.08.54 4.12 1.58 5.91L0 24l6.4-1.68a11.86 11.86 0 0 0 5.65 1.44h.01c6.53 0 11.84-5.31 11.84-11.85 0-3.16-1.23-6.14-3.38-8.43Zm-8.47 18.75h-.01a9.84 9.84 0 0 1-5.02-1.38l-.36-.22-3.8 1 1.01-3.71-.24-.38a9.82 9.82 0 0 1-1.5-5.2c0-5.43 4.42-9.85 9.86-9.85 2.63 0 5.1 1.03 6.96 2.89a9.78 9.78 0 0 1 2.89 6.96c0 5.44-4.42 9.85-9.79 9.85Zm5.4-7.36c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.95 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.77-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z"
-              />
-            </svg>
-            <span>+62 8135 3443 517</span>
-          </a>
-          <a class="footer-contact-link" href="mailto:prasetyamaha99@gmail.com">
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path
-                d="M2.4 4h19.2C22.92 4 24 5.08 24 6.4v11.2c0 1.32-1.08 2.4-2.4 2.4H2.4A2.4 2.4 0 0 1 0 17.6V6.4C0 5.08 1.08 4 2.4 4Zm0 2.2v.36l9.6 6 9.6-6V6.2H2.4Zm19.2 3.13-8.96 5.6a1.2 1.2 0 0 1-1.28 0L2.4 9.33v8.27h19.2V9.33Z"
-              />
-            </svg>
-            <span>prasetyamaha99@gmail.com</span>
-          </a>
-          <a
-            class="footer-contact-link"
-            href="https://www.linkedin.com/in/gedeprasetya/"
-            target="_blank"
-            rel="noopener"
-          >
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <path
-                d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.02H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
-              />
-            </svg>
-            <span>https://www.linkedin.com/in/gedeprasetya/</span>
-          </a>
-          <a href="#top" data-i18n="footer_top">Back to top</a>
-        </div>
+    <footer class="taskbar" aria-label="Taskbar">
+      <button class="start-button" id="startButton" type="button" aria-expanded="false" aria-controls="startMenu">
+        <span class="start-logo" aria-hidden="true"></span>
+        <span>start</span>
+      </button>
+      <div class="taskbar-apps" id="taskbarApps" aria-label="Open windows"></div>
+      <div class="system-tray" aria-label="System tray">
+        <span class="tray-icon">i</span>
+        <span class="tray-icon">✓</span>
+        <span class="tray-icon">↻</span>
+        <time id="clock">3:28 PM</time>
       </div>
     </footer>
   </body>

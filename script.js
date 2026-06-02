@@ -11,118 +11,38 @@
       metaDescription:
         "Professional web development, WordPress, UI/UX, branding, and AI implementation service in Bali by Pras. Flexible scope and pricing based on your needs and budget.",
       strings: {
-        skip: "Skip to content",
-        brand_role: "Digital Partner",
-        menu_open: "Open menu",
-        nav_services: "Services",
-        nav_pricing: "Pricing",
-        nav_process: "Process",
-        nav_contact: "Contact",
-        language_label: "Language",
-        language_auto: "Auto",
-        hero_eyebrow: "Professional web development service in Bali",
-        hero_title: "Pras",
-        hero_lead:
-          "I help business owners, professionals, and service providers build a credible digital presence with websites, apps, branding, UI/UX, and AI-supported solutions.",
-        hero_cta_primary: "Start a project",
-        hero_cta_secondary: "Explore services",
-        hero_stat_1_value: "3+ years",
-        hero_stat_1_label: "web development experience",
-        hero_stat_2_value: "Information Systems",
-        hero_stat_2_label: "bachelor degree background",
-        hero_stat_3_value: "Custom scope",
-        hero_stat_3_label: "adjusted to needs and budget",
-        strip_label: "Selected capabilities",
-        intro_kicker: "What I believe",
-        intro_title: "A website should make people trust you before they contact you.",
-        intro_body_1:
-          "Your digital presence is often the first proof that your business is serious. I build practical, well-designed solutions that help you look credible, communicate clearly, and convert attention into real conversations.",
-        intro_body_2:
-          "Whether you need a simple business website, a custom web application, WordPress development, branding support, or AI implementation, I shape the work around your actual goals instead of forcing you into a fixed package.",
-        services_kicker: "Services",
-        services_title: "All the digital support your brand needs to feel real.",
-        services_body:
-          "A focused set of web, design, and implementation services for businesses that need reliable execution without juggling many vendors.",
-        service_custom_title: "Custom Websites & Web Apps",
-        service_custom_body:
-          "Fast, responsive, conversion-focused websites and web applications built with modern tools.",
-        service_cms_title: "WordPress & Headless CMS",
-        service_cms_body:
-          "Manageable websites for owners and teams who need control over content without losing performance.",
-        service_design_title: "UI/UX & Brand Foundation",
-        service_design_body:
-          "Interfaces and brand systems that make your business easier to understand, remember, and trust.",
-        service_ai_title: "AI Implementation",
-        service_ai_body:
-          "Useful AI features and automation that support your workflow, content, and customer experience.",
-        pricing_kicker: "Flexible pricing",
-        pricing_title: "The scope adjusts to your needs, goals, and budget.",
-        pricing_body:
-          "Good digital work should be clear and realistic. I start by understanding what you need, what matters most, and what budget range feels comfortable. From there, we shape the right version of the project together.",
-        pricing_point_1_title: "No one-size package",
-        pricing_point_1_body: "Every proposal is based on real scope, not guesswork.",
-        pricing_point_2_title: "Transparent priorities",
-        pricing_point_2_body: "We decide what must be included now and what can grow later.",
-        pricing_point_3_title: "Long-term value",
-        pricing_point_3_body: "Build a foundation that can keep improving after launch.",
-        planner_kicker: "Project fit planner",
-        planner_title: "Shape the first conversation",
-        planner_need_label: "What do you need?",
-        planner_budget_label: "Budget comfort",
-        planner_timeline_label: "Timeline",
-        planner_priority_label: "Main priority",
-        project_business: "Business website",
-        project_custom: "Custom web application",
-        project_wordpress: "WordPress or CMS",
-        project_brand: "Branding and UI/UX",
-        project_ai: "AI implementation",
-        timeline_steady: "Steady",
-        timeline_soon: "Soon",
-        timeline_growth: "Long-term",
-        priority_trust: "Build trust and credibility",
-        priority_leads: "Get more leads",
-        priority_manage: "Manage content easily",
-        priority_system: "Create a custom system",
-        fit_label: "Recommended direction",
-        process_kicker: "Process",
-        process_title: "Clear work, calm communication, useful results.",
-        process_body:
-          "The process keeps the project moving without making you feel lost in technical details.",
-        process_1_title: "Discovery",
-        process_1_body: "We clarify your business, audience, goals, budget range, and what success means.",
-        process_2_title: "Plan",
-        process_2_body: "I recommend the right scope, structure, technology, and realistic launch path.",
-        process_3_title: "Design",
-        process_3_body: "We shape the visual direction, content flow, and user experience before building.",
-        process_4_title: "Build",
-        process_4_body: "I develop, test, refine, and prepare the website or system for launch.",
-        process_5_title: "Support",
-        process_5_body: "After launch, we can keep improving performance, content, features, and growth.",
-        audience_kicker: "Who I help",
-        audience_title: "Built for people who sell trust.",
-        audience_1_title: "Business owners",
-        audience_1_body: "Look more credible, present your offer clearly, and make it easier to contact you.",
-        audience_2_title: "Professionals",
-        audience_2_body: "Turn your expertise into a polished online presence that supports your reputation.",
-        audience_3_title: "Service providers",
-        audience_3_body: "Explain your value, show proof, and help potential clients feel confident.",
-        audience_4_title: "Growing teams",
-        audience_4_body: "Improve your systems, CMS, automation, and digital workflows as your needs evolve.",
-        relationship_kicker: "Long-term relationship",
-        relationship_title: "I am here to be your digital partner, not just a one-time developer.",
-        relationship_body:
-          "The best results come from steady improvement. I can help you launch the first version, learn from real users, and keep building the digital presence your business deserves.",
-        relationship_cta: "Talk about your project",
-        contact_kicker: "Start here",
-        contact_title: "Tell me what you want to build.",
-        contact_body:
-          "Share your goal, your timeline, and your budget comfort. I will help you turn it into a practical plan that fits where your business is right now.",
-        contact_note_1: "Based in Bali",
-        contact_note_2: "Remote-friendly collaboration",
-        contact_note_3: "Custom scope and proposal",
-        contact_whatsapp_label: "WhatsApp",
-        contact_email_label: "Email",
-        contact_linkedin_label: "LinkedIn",
+        skip: "Skip to desktop",
+        shortcut_about: "About Me",
+        shortcut_resume: "My Resume",
+        shortcut_projects: "My Projects",
+        shortcut_contact: "Contact Me",
+        window_about_title: "About Me",
+        window_resume_title: "My Resume",
+        window_projects_title: "My Projects",
+        window_contact_title: "Contact Me",
+        about_intro:
+          "A Bali-based digital partner helping business owners, professionals, and service providers build a credible online presence.",
+        about_stat_1: "3+ years",
+        about_stat_1_label: "web development experience",
+        about_stat_2: "Information Systems",
+        about_stat_2_label: "bachelor degree background",
+        about_stat_3: "Flexible scope",
+        about_stat_3_label: "adjusted to your needs and budget",
+        about_body:
+          "I build websites, web apps, CMS systems, UI/UX, brand foundations, and AI-supported workflows with a long-term mindset.",
+        resume_title: "Capability Brief",
+        resume_note_title: "Pricing note",
+        resume_note_body:
+          "Scope and pricing are adjusted based on goals, timeline, complexity, and budget.",
+        projects_title: "Digital Services",
+        project_1_title: "Custom Websites",
+        project_1_body: "Credible, responsive websites for business and service brands.",
+        project_2_title: "Web Applications",
+        project_2_body: "Modern front-end and back-end systems for custom workflows.",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "Manageable content systems, including headless WordPress.",
+        project_4_title: "Design & AI",
+        project_4_body: "UI/UX, brand guidelines, logo design, and practical AI features.",
         form_name: "Your name",
         form_email: "Email",
         form_project_type: "Project type",
@@ -134,11 +54,9 @@
         form_service_unsure: "Not sure yet",
         form_details: "Project details",
         form_placeholder: "Tell me what you need, your goals, timeline, and budget range.",
-        form_submit: "Send project brief",
         form_submit_whatsapp: "Send via WhatsApp",
         form_submit_email: "Send via Email",
         form_missing: "Please complete the required fields first.",
-        form_opening: "Opening your email app with the project brief...",
         form_whatsapp_opening: "Opening WhatsApp with your project brief...",
         form_email_sending: "Sending your project brief...",
         form_email_sent: "Thanks. Your project brief has been sent.",
@@ -147,77 +65,7 @@
         email_name: "Name",
         email_email: "Email",
         email_service: "Project type",
-        email_details: "Project details",
-        footer_body: "Professional web development and digital solutions in Bali.",
-        footer_top: "Back to top",
-        budget_scope_note: "{budget}: scope the most important work first."
-      },
-      lists: {
-        service_custom_list: ["React.js, Vue.js, Next.js", "Laravel and Astro.js", "Landing pages, dashboards, booking flows"],
-        service_cms_list: ["WordPress development", "Headless WordPress setup", "Content structure and maintenance"],
-        service_design_list: ["Website UI/UX design", "Logo design", "Brand guidelines"],
-        service_ai_list: ["AI chat and assistant flows", "Content and admin automation", "Custom integrations"]
-      },
-      planner: {
-        budgetLabels: {
-          1: "Simple and focused",
-          2: "Lean but professional",
-          3: "Growth-ready",
-          4: "Custom and scalable"
-        },
-        recommendations: {
-          business: {
-            title: "Credible launch website",
-            items: [
-              "Professional homepage and service pages",
-              "Clear message, trust sections, and contact flow",
-              "Built so it can grow after launch"
-            ]
-          },
-          custom: {
-            title: "Custom web application plan",
-            items: [
-              "User flows, features, and technical scope first",
-              "Modern front-end with reliable back-end structure",
-              "Phased build so budget and risk stay clear"
-            ]
-          },
-          wordpress: {
-            title: "Manageable CMS website",
-            items: [
-              "WordPress or Headless WordPress setup",
-              "Content structure your team can update",
-              "Performance, security, and maintenance planning"
-            ]
-          },
-          brand: {
-            title: "Trust-focused brand foundation",
-            items: [
-              "Logo, brand direction, and visual guidelines",
-              "UI/UX direction that supports your offer",
-              "Website-ready design system and content flow"
-            ]
-          },
-          ai: {
-            title: "Practical AI implementation",
-            items: [
-              "Workflow review before choosing tools",
-              "AI assistant, automation, or content support",
-              "Clear limits, testing, and handover documentation"
-            ]
-          }
-        },
-        priorities: {
-          trust: "Emphasize credibility, proof, and a polished first impression.",
-          leads: "Prioritize conversion paths, contact flow, and service clarity.",
-          manage: "Focus on content editing, CMS structure, and easy maintenance.",
-          system: "Start with workflow, data, roles, and technical requirements."
-        },
-        timelines: {
-          steady: "Use a balanced timeline with room for planning, design, and refinement.",
-          soon: "Keep the first version focused so it can launch sooner.",
-          growth: "Plan the foundation for ongoing improvements after launch."
-        }
+        email_details: "Project details"
       }
     },
     id: {
@@ -225,117 +73,38 @@
       metaDescription:
         "Jasa web development profesional, WordPress, UI/UX, branding, dan implementasi AI di Bali oleh Pras. Scope dan harga fleksibel sesuai kebutuhan dan budget.",
       strings: {
-        skip: "Lewati ke konten",
-        brand_role: "Partner Digital",
-        menu_open: "Buka menu",
-        nav_services: "Layanan",
-        nav_pricing: "Harga",
-        nav_process: "Proses",
-        nav_contact: "Kontak",
-        language_label: "Bahasa",
-        language_auto: "Otomatis",
-        hero_eyebrow: "Jasa web development profesional di Bali",
-        hero_title: "Pras",
-        hero_lead:
-          "Saya membantu pemilik bisnis, profesional, dan penyedia jasa membangun kehadiran digital yang kredibel melalui website, aplikasi, branding, UI/UX, dan solusi berbasis AI.",
-        hero_cta_primary: "Mulai proyek",
-        hero_cta_secondary: "Lihat layanan",
-        hero_stat_1_value: "3+ tahun",
-        hero_stat_1_label: "pengalaman web development",
-        hero_stat_2_value: "Sistem Informasi",
-        hero_stat_2_label: "latar belakang sarjana",
-        hero_stat_3_value: "Scope custom",
-        hero_stat_3_label: "disesuaikan dengan kebutuhan dan budget",
-        strip_label: "Keahlian utama",
-        intro_kicker: "Yang saya percaya",
-        intro_title: "Website seharusnya membuat orang percaya sebelum mereka menghubungi Anda.",
-        intro_body_1:
-          "Kehadiran digital sering menjadi bukti pertama bahwa bisnis Anda serius. Saya membangun solusi yang praktis dan rapi agar bisnis terlihat kredibel, mudah dipahami, dan siap mengubah perhatian menjadi percakapan nyata.",
-        intro_body_2:
-          "Baik Anda membutuhkan website bisnis sederhana, aplikasi web custom, WordPress, dukungan branding, atau implementasi AI, pekerjaan akan saya bentuk berdasarkan tujuan asli Anda, bukan paket yang dipaksakan.",
-        services_kicker: "Layanan",
-        services_title: "Semua dukungan digital agar brand Anda terasa nyata.",
-        services_body:
-          "Rangkaian layanan web, desain, dan implementasi untuk bisnis yang membutuhkan eksekusi terpercaya tanpa harus mengelola banyak vendor.",
-        service_custom_title: "Website & Aplikasi Web Custom",
-        service_custom_body:
-          "Website dan aplikasi web yang cepat, responsif, dan fokus pada konversi menggunakan teknologi modern.",
-        service_cms_title: "WordPress & Headless CMS",
-        service_cms_body:
-          "Website yang mudah dikelola untuk pemilik bisnis dan tim yang butuh kontrol konten tanpa mengorbankan performa.",
-        service_design_title: "UI/UX & Fondasi Brand",
-        service_design_body:
-          "Interface dan sistem brand yang membuat bisnis lebih mudah dipahami, diingat, dan dipercaya.",
-        service_ai_title: "Implementasi AI",
-        service_ai_body:
-          "Fitur AI dan automasi yang benar-benar berguna untuk workflow, konten, dan pengalaman pelanggan.",
-        pricing_kicker: "Harga fleksibel",
-        pricing_title: "Scope menyesuaikan kebutuhan, tujuan, dan budget Anda.",
-        pricing_body:
-          "Pekerjaan digital yang baik harus jelas dan realistis. Saya mulai dengan memahami kebutuhan, prioritas, dan range budget yang nyaman untuk Anda. Dari sana, kita bentuk versi proyek yang paling tepat.",
-        pricing_point_1_title: "Tidak pakai paket kaku",
-        pricing_point_1_body: "Setiap proposal dibuat berdasarkan scope nyata, bukan tebak-tebakan.",
-        pricing_point_2_title: "Prioritas transparan",
-        pricing_point_2_body: "Kita tentukan mana yang wajib dikerjakan sekarang dan mana yang bisa berkembang nanti.",
-        pricing_point_3_title: "Nilai jangka panjang",
-        pricing_point_3_body: "Bangun fondasi yang bisa terus ditingkatkan setelah launch.",
-        planner_kicker: "Perencana proyek",
-        planner_title: "Bentuk arah diskusi pertama",
-        planner_need_label: "Apa yang Anda butuhkan?",
-        planner_budget_label: "Kenyamanan budget",
-        planner_timeline_label: "Timeline",
-        planner_priority_label: "Prioritas utama",
-        project_business: "Website bisnis",
-        project_custom: "Aplikasi web custom",
-        project_wordpress: "WordPress atau CMS",
-        project_brand: "Branding dan UI/UX",
-        project_ai: "Implementasi AI",
-        timeline_steady: "Stabil",
-        timeline_soon: "Segera",
-        timeline_growth: "Jangka panjang",
-        priority_trust: "Membangun trust dan kredibilitas",
-        priority_leads: "Mendapatkan lebih banyak leads",
-        priority_manage: "Mengelola konten dengan mudah",
-        priority_system: "Membuat sistem custom",
-        fit_label: "Arah yang direkomendasikan",
-        process_kicker: "Proses",
-        process_title: "Kerja jelas, komunikasi tenang, hasil berguna.",
-        process_body: "Proses dibuat agar proyek terus bergerak tanpa membuat Anda tersesat dalam detail teknis.",
-        process_1_title: "Discovery",
-        process_1_body: "Kita perjelas bisnis, audiens, tujuan, range budget, dan arti sukses untuk proyek ini.",
-        process_2_title: "Rencana",
-        process_2_body: "Saya rekomendasikan scope, struktur, teknologi, dan jalur launch yang realistis.",
-        process_3_title: "Desain",
-        process_3_body: "Kita bentuk arah visual, alur konten, dan user experience sebelum masuk development.",
-        process_4_title: "Build",
-        process_4_body: "Saya develop, test, refine, dan siapkan website atau sistem untuk launch.",
-        process_5_title: "Support",
-        process_5_body: "Setelah launch, kita bisa terus meningkatkan performa, konten, fitur, dan growth.",
-        audience_kicker: "Siapa yang saya bantu",
-        audience_title: "Dibuat untuk orang yang menjual kepercayaan.",
-        audience_1_title: "Pemilik bisnis",
-        audience_1_body: "Tampil lebih kredibel, jelaskan penawaran dengan rapi, dan mudahkan calon klien menghubungi Anda.",
-        audience_2_title: "Profesional",
-        audience_2_body: "Ubah keahlian Anda menjadi kehadiran online yang mendukung reputasi.",
-        audience_3_title: "Penyedia jasa",
-        audience_3_body: "Jelaskan value, tampilkan bukti, dan bantu calon klien merasa yakin.",
-        audience_4_title: "Tim yang berkembang",
-        audience_4_body: "Tingkatkan sistem, CMS, automasi, dan workflow digital seiring kebutuhan yang bertambah.",
-        relationship_kicker: "Relasi jangka panjang",
-        relationship_title: "Saya hadir sebagai partner digital, bukan hanya developer sekali jalan.",
-        relationship_body:
-          "Hasil terbaik datang dari perbaikan yang konsisten. Saya bisa membantu Anda launch versi pertama, belajar dari user, dan terus membangun kehadiran digital yang layak untuk bisnis Anda.",
-        relationship_cta: "Diskusikan proyek Anda",
-        contact_kicker: "Mulai dari sini",
-        contact_title: "Ceritakan apa yang ingin Anda bangun.",
-        contact_body:
-          "Bagikan tujuan, timeline, dan kenyamanan budget Anda. Saya akan bantu mengubahnya menjadi rencana praktis yang sesuai dengan kondisi bisnis saat ini.",
-        contact_note_1: "Berbasis di Bali",
-        contact_note_2: "Kolaborasi remote-friendly",
-        contact_note_3: "Scope dan proposal custom",
-        contact_whatsapp_label: "WhatsApp",
-        contact_email_label: "Email",
-        contact_linkedin_label: "LinkedIn",
+        skip: "Lewati ke desktop",
+        shortcut_about: "Tentang Saya",
+        shortcut_resume: "Resume Saya",
+        shortcut_projects: "Proyek Saya",
+        shortcut_contact: "Kontak Saya",
+        window_about_title: "Tentang Saya",
+        window_resume_title: "Resume Saya",
+        window_projects_title: "Proyek Saya",
+        window_contact_title: "Kontak Saya",
+        about_intro:
+          "Partner digital berbasis di Bali yang membantu pemilik bisnis, profesional, dan penyedia jasa membangun kehadiran online yang kredibel.",
+        about_stat_1: "3+ tahun",
+        about_stat_1_label: "pengalaman web development",
+        about_stat_2: "Sistem Informasi",
+        about_stat_2_label: "latar belakang sarjana",
+        about_stat_3: "Scope fleksibel",
+        about_stat_3_label: "disesuaikan kebutuhan dan budget",
+        about_body:
+          "Saya membangun website, aplikasi web, CMS, UI/UX, fondasi brand, dan workflow berbasis AI dengan mindset jangka panjang.",
+        resume_title: "Capability Brief",
+        resume_note_title: "Catatan harga",
+        resume_note_body:
+          "Scope dan harga disesuaikan berdasarkan tujuan, timeline, kompleksitas, dan budget.",
+        projects_title: "Layanan Digital",
+        project_1_title: "Website Custom",
+        project_1_body: "Website kredibel dan responsif untuk bisnis dan brand jasa.",
+        project_2_title: "Aplikasi Web",
+        project_2_body: "Sistem front-end dan back-end modern untuk workflow custom.",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "Sistem konten yang mudah dikelola, termasuk Headless WordPress.",
+        project_4_title: "Design & AI",
+        project_4_body: "UI/UX, brand guidelines, logo design, dan fitur AI praktis.",
         form_name: "Nama Anda",
         form_email: "Email",
         form_project_type: "Jenis proyek",
@@ -347,11 +116,9 @@
         form_service_unsure: "Belum yakin",
         form_details: "Detail proyek",
         form_placeholder: "Ceritakan kebutuhan, tujuan, timeline, dan range budget Anda.",
-        form_submit: "Kirim brief proyek",
         form_submit_whatsapp: "Kirim via WhatsApp",
         form_submit_email: "Kirim via Email",
         form_missing: "Lengkapi field yang wajib diisi terlebih dahulu.",
-        form_opening: "Membuka aplikasi email Anda dengan brief proyek...",
         form_whatsapp_opening: "Membuka WhatsApp dengan brief proyek Anda...",
         form_email_sending: "Mengirim brief proyek Anda...",
         form_email_sent: "Terima kasih. Brief proyek Anda sudah terkirim.",
@@ -360,152 +127,134 @@
         email_name: "Nama",
         email_email: "Email",
         email_service: "Jenis proyek",
-        email_details: "Detail proyek",
-        footer_body: "Jasa web development profesional dan solusi digital di Bali.",
-        footer_top: "Kembali ke atas",
-        budget_scope_note: "{budget}: prioritaskan pekerjaan paling penting terlebih dahulu."
-      },
-      lists: {
-        service_custom_list: ["React.js, Vue.js, Next.js", "Laravel dan Astro.js", "Landing page, dashboard, booking flow"],
-        service_cms_list: ["Development WordPress", "Setup Headless WordPress", "Struktur konten dan maintenance"],
-        service_design_list: ["Desain UI/UX website", "Desain logo", "Brand guidelines"],
-        service_ai_list: ["AI chat dan assistant flow", "Automasi konten dan admin", "Integrasi custom"]
-      },
-      planner: {
-        budgetLabels: {
-          1: "Sederhana dan fokus",
-          2: "Lean tapi profesional",
-          3: "Siap untuk growth",
-          4: "Custom dan scalable"
-        },
-        recommendations: {
-          business: {
-            title: "Website launch yang kredibel",
-            items: [
-              "Homepage dan halaman layanan yang profesional",
-              "Pesan jelas, section trust, dan alur kontak",
-              "Fondasi yang bisa berkembang setelah launch"
-            ]
-          },
-          custom: {
-            title: "Rencana aplikasi web custom",
-            items: [
-              "Mulai dari user flow, fitur, dan scope teknis",
-              "Front-end modern dengan struktur back-end yang reliable",
-              "Build bertahap agar budget dan risiko tetap jelas"
-            ]
-          },
-          wordpress: {
-            title: "Website CMS yang mudah dikelola",
-            items: [
-              "Setup WordPress atau Headless WordPress",
-              "Struktur konten yang mudah di-update",
-              "Perencanaan performa, security, dan maintenance"
-            ]
-          },
-          brand: {
-            title: "Fondasi brand yang membangun trust",
-            items: [
-              "Logo, arah brand, dan panduan visual",
-              "Arah UI/UX yang mendukung penawaran",
-              "Design system siap pakai untuk website"
-            ]
-          },
-          ai: {
-            title: "Implementasi AI yang praktis",
-            items: [
-              "Review workflow sebelum memilih tool",
-              "AI assistant, automasi, atau dukungan konten",
-              "Testing, batasan jelas, dan dokumentasi handover"
-            ]
-          }
-        },
-        priorities: {
-          trust: "Tekankan kredibilitas, bukti, dan first impression yang rapi.",
-          leads: "Prioritaskan alur konversi, kontak, dan kejelasan layanan.",
-          manage: "Fokus pada kemudahan edit konten, struktur CMS, dan maintenance.",
-          system: "Mulai dari workflow, data, peran user, dan kebutuhan teknis."
-        },
-        timelines: {
-          steady: "Gunakan timeline seimbang dengan ruang untuk planning, desain, dan refinement.",
-          soon: "Jaga versi pertama tetap fokus agar bisa launch lebih cepat.",
-          growth: "Rencanakan fondasi untuk peningkatan jangka panjang setelah launch."
-        }
+        email_details: "Detail proyek"
       }
     }
   };
 
-  const extraLocaleStrings = {
+  const extraLocales = {
     es: {
       metaTitle: "Pras | Servicio profesional de desarrollo web en Bali",
       metaDescription:
-        "Desarrollo web profesional, WordPress, UI/UX, branding e implementacion de IA en Bali por Pras. Alcance y precio flexibles segun tus necesidades y presupuesto.",
+        "Servicio profesional de desarrollo web, WordPress, UI/UX, branding e implementación de IA en Bali por Pras. Alcance y precio flexibles según tus necesidades y presupuesto.",
       strings: {
-        brand_role: "Socio digital",
-        nav_services: "Servicios",
-        nav_pricing: "Precios",
-        nav_process: "Proceso",
-        nav_contact: "Contacto",
-        language_label: "Idioma",
-        language_auto: "Auto",
-        hero_eyebrow: "Servicio profesional de desarrollo web en Bali",
-        hero_lead:
-          "Ayudo a duenos de negocios, profesionales y proveedores de servicios a crear una presencia digital creible con sitios web, apps, branding, UI/UX y soluciones con IA.",
-        hero_cta_primary: "Iniciar proyecto",
-        hero_cta_secondary: "Ver servicios",
-        intro_title: "Un sitio web debe generar confianza antes de que te contacten.",
-        services_kicker: "Servicios",
-        services_title: "Todo el soporte digital que tu marca necesita para sentirse real.",
-        pricing_kicker: "Precio flexible",
-        pricing_title: "El alcance se ajusta a tus necesidades, objetivos y presupuesto.",
-        planner_kicker: "Planificador",
-        planner_title: "Define la primera conversacion",
-        process_kicker: "Proceso",
-        process_title: "Trabajo claro, comunicacion tranquila y resultados utiles.",
-        audience_kicker: "A quien ayudo",
-        audience_title: "Creado para personas que venden confianza.",
-        relationship_kicker: "Relacion a largo plazo",
-        relationship_title: "Estoy aqui como tu socio digital, no solo como desarrollador de una vez.",
-        contact_kicker: "Empieza aqui",
-        contact_title: "Cuentame que quieres construir.",
-        form_submit: "Enviar brief del proyecto",
-        footer_body: "Desarrollo web profesional y soluciones digitales en Bali."
+        skip: "Ir al escritorio",
+        shortcut_about: "Sobre mí",
+        shortcut_resume: "Mi resumen",
+        shortcut_projects: "Mis proyectos",
+        shortcut_contact: "Contacto",
+        window_about_title: "Sobre mí",
+        window_resume_title: "Mi resumen",
+        window_projects_title: "Mis proyectos",
+        window_contact_title: "Contacto",
+        about_intro:
+          "Un socio digital en Bali que ayuda a negocios, profesionales y proveedores de servicios a crear una presencia online creíble.",
+        about_stat_1: "3+ años",
+        about_stat_1_label: "de experiencia en desarrollo web",
+        about_stat_2: "Sistemas de Información",
+        about_stat_2_label: "formación universitaria",
+        about_stat_3: "Alcance flexible",
+        about_stat_3_label: "adaptado a tus necesidades y presupuesto",
+        about_body:
+          "Creo sitios web, aplicaciones web, CMS, UI/UX, bases de marca y flujos con IA pensando en relaciones a largo plazo.",
+        resume_title: "Resumen de capacidades",
+        resume_note_title: "Nota de precio",
+        resume_note_body:
+          "El alcance y el precio se ajustan según objetivos, calendario, complejidad y presupuesto.",
+        projects_title: "Servicios digitales",
+        project_1_title: "Sitios web a medida",
+        project_1_body: "Sitios creíbles y responsivos para negocios y marcas de servicios.",
+        project_2_title: "Aplicaciones web",
+        project_2_body: "Sistemas modernos de front-end y back-end para flujos personalizados.",
+        project_3_title: "CMS y WordPress",
+        project_3_body: "Sistemas de contenido fáciles de gestionar, incluido Headless WordPress.",
+        project_4_title: "Diseño e IA",
+        project_4_body: "UI/UX, guías de marca, diseño de logo y funciones prácticas con IA.",
+        form_name: "Tu nombre",
+        form_email: "Email",
+        form_project_type: "Tipo de proyecto",
+        form_service_website: "Sitio web",
+        form_service_app: "Aplicación web",
+        form_service_cms: "WordPress o CMS",
+        form_service_design: "UI/UX o branding",
+        form_service_ai: "Implementación de IA",
+        form_service_unsure: "Aún no estoy seguro",
+        form_details: "Detalles del proyecto",
+        form_placeholder: "Cuéntame qué necesitas, objetivos, calendario y rango de presupuesto.",
+        form_submit_whatsapp: "Enviar por WhatsApp",
+        form_submit_email: "Enviar por Email",
+        form_missing: "Completa primero los campos obligatorios.",
+        form_whatsapp_opening: "Abriendo WhatsApp con tu brief de proyecto...",
+        form_email_sending: "Enviando tu brief de proyecto...",
+        form_email_sent: "Gracias. Tu brief de proyecto fue enviado.",
+        form_email_fallback: "El servicio de email aún no está listo. Abriendo tu app de email...",
+        email_subject: "Consulta de proyecto de {name}",
+        email_name: "Nombre",
+        email_email: "Email",
+        email_service: "Tipo de proyecto",
+        email_details: "Detalles del proyecto"
       }
     },
     fr: {
-      metaTitle: "Pras | Service professionnel de developpement web a Bali",
+      metaTitle: "Pras | Service professionnel de développement web à Bali",
       metaDescription:
-        "Developpement web professionnel, WordPress, UI/UX, branding et implementation IA a Bali par Pras. Portee et prix flexibles selon vos besoins et votre budget.",
+        "Service professionnel de développement web, WordPress, UI/UX, branding et intégration IA à Bali par Pras. Périmètre et prix flexibles selon vos besoins et votre budget.",
       strings: {
-        brand_role: "Partenaire digital",
-        nav_services: "Services",
-        nav_pricing: "Tarifs",
-        nav_process: "Processus",
-        nav_contact: "Contact",
-        language_label: "Langue",
-        language_auto: "Auto",
-        hero_eyebrow: "Service professionnel de developpement web a Bali",
-        hero_lead:
-          "J'aide les dirigeants, professionnels et prestataires a creer une presence digitale credible avec sites web, apps, branding, UI/UX et solutions IA.",
-        hero_cta_primary: "Demarrer un projet",
-        hero_cta_secondary: "Voir les services",
-        intro_title: "Un site web doit inspirer confiance avant meme le premier contact.",
-        services_kicker: "Services",
-        services_title: "Tout le support digital dont votre marque a besoin pour devenir concrete.",
-        pricing_kicker: "Tarifs flexibles",
-        pricing_title: "La portee s'adapte a vos besoins, objectifs et budget.",
-        planner_kicker: "Planificateur",
-        planner_title: "Preparer la premiere conversation",
-        process_kicker: "Processus",
-        process_title: "Travail clair, communication calme, resultats utiles.",
-        audience_kicker: "Qui j'aide",
-        audience_title: "Cree pour celles et ceux qui vendent la confiance.",
-        relationship_kicker: "Relation long terme",
-        relationship_title: "Je suis votre partenaire digital, pas seulement un developpeur ponctuel.",
-        contact_kicker: "Commencer ici",
-        contact_title: "Dites-moi ce que vous voulez construire.",
-        form_submit: "Envoyer le brief",
-        footer_body: "Developpement web professionnel et solutions digitales a Bali."
+        skip: "Aller au bureau",
+        shortcut_about: "À propos",
+        shortcut_resume: "Mon résumé",
+        shortcut_projects: "Mes projets",
+        shortcut_contact: "Contact",
+        window_about_title: "À propos",
+        window_resume_title: "Mon résumé",
+        window_projects_title: "Mes projets",
+        window_contact_title: "Contact",
+        about_intro:
+          "Un partenaire digital basé à Bali qui aide les entreprises, professionnels et prestataires à créer une présence en ligne crédible.",
+        about_stat_1: "3+ ans",
+        about_stat_1_label: "d'expérience en développement web",
+        about_stat_2: "Systèmes d'information",
+        about_stat_2_label: "formation universitaire",
+        about_stat_3: "Périmètre flexible",
+        about_stat_3_label: "adapté à vos besoins et budget",
+        about_body:
+          "Je crée des sites web, applications web, CMS, UI/UX, bases de marque et workflows avec IA dans une logique de long terme.",
+        resume_title: "Résumé des compétences",
+        resume_note_title: "Note de prix",
+        resume_note_body:
+          "Le périmètre et le prix sont ajustés selon les objectifs, le calendrier, la complexité et le budget.",
+        projects_title: "Services digitaux",
+        project_1_title: "Sites web sur mesure",
+        project_1_body: "Sites crédibles et responsives pour entreprises et marques de services.",
+        project_2_title: "Applications web",
+        project_2_body: "Systèmes front-end et back-end modernes pour workflows personnalisés.",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "Systèmes de contenu faciles à gérer, y compris Headless WordPress.",
+        project_4_title: "Design & IA",
+        project_4_body: "UI/UX, chartes de marque, logo design et fonctionnalités IA pratiques.",
+        form_name: "Votre nom",
+        form_email: "Email",
+        form_project_type: "Type de projet",
+        form_service_website: "Site web",
+        form_service_app: "Application web",
+        form_service_cms: "WordPress ou CMS",
+        form_service_design: "UI/UX ou branding",
+        form_service_ai: "Intégration IA",
+        form_service_unsure: "Pas encore sûr",
+        form_details: "Détails du projet",
+        form_placeholder: "Décrivez vos besoins, objectifs, calendrier et budget.",
+        form_submit_whatsapp: "Envoyer via WhatsApp",
+        form_submit_email: "Envoyer par Email",
+        form_missing: "Veuillez compléter les champs obligatoires.",
+        form_whatsapp_opening: "Ouverture de WhatsApp avec votre brief...",
+        form_email_sending: "Envoi de votre brief...",
+        form_email_sent: "Merci. Votre brief a été envoyé.",
+        form_email_fallback: "Le service email n'est pas encore prêt. Ouverture de votre app email...",
+        email_subject: "Demande de projet de {name}",
+        email_name: "Nom",
+        email_email: "Email",
+        email_service: "Type de projet",
+        email_details: "Détails du projet"
       }
     },
     de: {
@@ -513,115 +262,193 @@
       metaDescription:
         "Professionelle Webentwicklung, WordPress, UI/UX, Branding und KI-Implementierung in Bali von Pras. Umfang und Preis flexibel nach Bedarf und Budget.",
       strings: {
-        brand_role: "Digitaler Partner",
-        nav_services: "Leistungen",
-        nav_pricing: "Preise",
-        nav_process: "Prozess",
-        nav_contact: "Kontakt",
-        language_label: "Sprache",
-        language_auto: "Auto",
-        hero_eyebrow: "Professioneller Webentwicklungsservice in Bali",
-        hero_lead:
-          "Ich helfe Unternehmen, Fachleuten und Dienstleistern, eine glaubwuerdige digitale Praesenz mit Websites, Apps, Branding, UI/UX und KI-Loesungen aufzubauen.",
-        hero_cta_primary: "Projekt starten",
-        hero_cta_secondary: "Leistungen ansehen",
-        intro_title: "Eine Website sollte Vertrauen schaffen, bevor jemand Kontakt aufnimmt.",
-        services_kicker: "Leistungen",
-        services_title: "Digitale Unterstuetzung, damit Ihre Marke professionell wirkt.",
-        pricing_kicker: "Flexible Preise",
-        pricing_title: "Der Umfang passt sich Bedarf, Zielen und Budget an.",
-        planner_kicker: "Projektplaner",
-        planner_title: "Das erste Gespraech vorbereiten",
-        process_kicker: "Prozess",
-        process_title: "Klare Arbeit, ruhige Kommunikation, nuetzliche Ergebnisse.",
-        audience_kicker: "Wem ich helfe",
-        audience_title: "Gebaut fuer Menschen, die Vertrauen verkaufen.",
-        relationship_kicker: "Langfristige Beziehung",
-        relationship_title: "Ich bin Ihr digitaler Partner, nicht nur ein einmaliger Entwickler.",
-        contact_kicker: "Hier starten",
-        contact_title: "Erzaehlen Sie mir, was Sie bauen moechten.",
-        form_submit: "Projektbrief senden",
-        footer_body: "Professionelle Webentwicklung und digitale Loesungen in Bali."
+        skip: "Zum Desktop springen",
+        shortcut_about: "Über mich",
+        shortcut_resume: "Mein Profil",
+        shortcut_projects: "Meine Projekte",
+        shortcut_contact: "Kontakt",
+        window_about_title: "Über mich",
+        window_resume_title: "Mein Profil",
+        window_projects_title: "Meine Projekte",
+        window_contact_title: "Kontakt",
+        about_intro:
+          "Ein digitaler Partner aus Bali, der Unternehmen, Profis und Dienstleister beim Aufbau einer glaubwürdigen Online-Präsenz unterstützt.",
+        about_stat_1: "3+ Jahre",
+        about_stat_1_label: "Erfahrung in Webentwicklung",
+        about_stat_2: "Informationssysteme",
+        about_stat_2_label: "Bachelor-Hintergrund",
+        about_stat_3: "Flexibler Umfang",
+        about_stat_3_label: "angepasst an Bedarf und Budget",
+        about_body:
+          "Ich baue Websites, Web-Apps, CMS-Systeme, UI/UX, Markenfundamente und KI-gestützte Workflows mit langfristiger Perspektive.",
+        resume_title: "Kompetenzprofil",
+        resume_note_title: "Preishinweis",
+        resume_note_body:
+          "Umfang und Preis richten sich nach Zielen, Zeitplan, Komplexität und Budget.",
+        projects_title: "Digitale Services",
+        project_1_title: "Individuelle Websites",
+        project_1_body: "Glaubwürdige, responsive Websites für Unternehmen und Servicemarken.",
+        project_2_title: "Webanwendungen",
+        project_2_body: "Moderne Front-end- und Back-end-Systeme für individuelle Abläufe.",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "Gut verwaltbare Content-Systeme, inklusive Headless WordPress.",
+        project_4_title: "Design & KI",
+        project_4_body: "UI/UX, Brand Guidelines, Logo Design und praktische KI-Funktionen.",
+        form_name: "Ihr Name",
+        form_email: "Email",
+        form_project_type: "Projekttyp",
+        form_service_website: "Website",
+        form_service_app: "Webanwendung",
+        form_service_cms: "WordPress oder CMS",
+        form_service_design: "UI/UX oder Branding",
+        form_service_ai: "KI-Implementierung",
+        form_service_unsure: "Noch nicht sicher",
+        form_details: "Projektdetails",
+        form_placeholder: "Beschreiben Sie Bedarf, Ziele, Zeitplan und Budgetrahmen.",
+        form_submit_whatsapp: "Per WhatsApp senden",
+        form_submit_email: "Per Email senden",
+        form_missing: "Bitte füllen Sie zuerst die Pflichtfelder aus.",
+        form_whatsapp_opening: "WhatsApp wird mit Ihrem Projektbrief geöffnet...",
+        form_email_sending: "Projektbrief wird gesendet...",
+        form_email_sent: "Danke. Ihr Projektbrief wurde gesendet.",
+        form_email_fallback: "Der Email-Service ist noch nicht bereit. Ihre Email-App wird geöffnet...",
+        email_subject: "Projektanfrage von {name}",
+        email_name: "Name",
+        email_email: "Email",
+        email_service: "Projekttyp",
+        email_details: "Projektdetails"
       }
     },
     ja: {
-      metaTitle: "Pras | バリのプロフェッショナルWeb開発サービス",
+      metaTitle: "Pras | バリ島のプロ向けWeb開発サービス",
       metaDescription:
-        "Pras によるバリ拠点のWeb開発、WordPress、UI/UX、ブランディング、AI導入。ニーズと予算に合わせて柔軟に設計します。",
+        "Prasによるバリ島のWeb開発、WordPress、UI/UX、ブランディング、AI導入サービス。内容と料金はニーズと予算に合わせて調整します。",
       strings: {
-        brand_role: "デジタルパートナー",
-        nav_services: "サービス",
-        nav_pricing: "料金",
-        nav_process: "プロセス",
-        nav_contact: "お問い合わせ",
-        language_label: "言語",
-        language_auto: "自動",
-        hero_eyebrow: "バリのプロフェッショナルWeb開発サービス",
-        hero_lead:
-          "ビジネスオーナー、専門職、サービス提供者が信頼されるデジタルプレゼンスを作れるよう、Webサイト、アプリ、ブランディング、UI/UX、AI活用を支援します。",
-        hero_cta_primary: "相談を始める",
-        hero_cta_secondary: "サービスを見る",
-        intro_title: "Webサイトは、問い合わせ前に信頼を生むものであるべきです。",
-        services_kicker: "サービス",
-        services_title: "ブランドを本物らしく見せるためのデジタル支援。",
-        pricing_kicker: "柔軟な料金",
-        pricing_title: "範囲はニーズ、目標、予算に合わせて調整します。",
-        planner_kicker: "プロジェクト診断",
-        planner_title: "最初の相談を具体化する",
-        process_kicker: "プロセス",
-        process_title: "明確な進行、落ち着いたコミュニケーション、実用的な成果。",
-        audience_kicker: "支援する方",
-        audience_title: "信頼を届ける人のために作ります。",
-        relationship_kicker: "長期的な関係",
-        relationship_title: "一度きりの開発者ではなく、長く伴走するデジタルパートナーです。",
-        contact_kicker: "ここから開始",
-        contact_title: "作りたいものを教えてください。",
-        form_submit: "プロジェクト概要を送る",
-        footer_body: "バリのプロフェッショナルWeb開発とデジタルソリューション。"
+        skip: "デスクトップへ移動",
+        shortcut_about: "自己紹介",
+        shortcut_resume: "経歴",
+        shortcut_projects: "プロジェクト",
+        shortcut_contact: "連絡先",
+        window_about_title: "自己紹介",
+        window_resume_title: "経歴",
+        window_projects_title: "プロジェクト",
+        window_contact_title: "連絡先",
+        about_intro:
+          "バリ島を拠点に、事業者・プロフェッショナル・サービス提供者の信頼できるオンラインプレゼンスを支援するデジタルパートナーです。",
+        about_stat_1: "3年以上",
+        about_stat_1_label: "Web開発経験",
+        about_stat_2: "情報システム",
+        about_stat_2_label: "学士バックグラウンド",
+        about_stat_3: "柔軟なスコープ",
+        about_stat_3_label: "ニーズと予算に合わせて調整",
+        about_body:
+          "長期的な関係を大切にしながら、Webサイト、Webアプリ、CMS、UI/UX、ブランド基盤、AI活用ワークフローを構築します。",
+        resume_title: "対応できること",
+        resume_note_title: "料金について",
+        resume_note_body:
+          "目的、スケジュール、複雑さ、予算に合わせてスコープと料金を調整します。",
+        projects_title: "デジタルサービス",
+        project_1_title: "カスタムWebサイト",
+        project_1_body: "ビジネスやサービスブランド向けの信頼感あるレスポンシブサイト。",
+        project_2_title: "Webアプリケーション",
+        project_2_body: "独自ワークフロー向けのモダンなフロントエンド・バックエンド。",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "Headless WordPressを含む、管理しやすいコンテンツシステム。",
+        project_4_title: "デザイン & AI",
+        project_4_body: "UI/UX、ブランドガイドライン、ロゴデザイン、実用的なAI機能。",
+        form_name: "お名前",
+        form_email: "Email",
+        form_project_type: "プロジェクト種別",
+        form_service_website: "Webサイト",
+        form_service_app: "Webアプリ",
+        form_service_cms: "WordPress または CMS",
+        form_service_design: "UI/UX またはブランディング",
+        form_service_ai: "AI導入",
+        form_service_unsure: "まだ未定",
+        form_details: "プロジェクト詳細",
+        form_placeholder: "必要な内容、目的、スケジュール、予算感を教えてください。",
+        form_submit_whatsapp: "WhatsAppで送信",
+        form_submit_email: "Emailで送信",
+        form_missing: "必須項目を入力してください。",
+        form_whatsapp_opening: "WhatsAppでプロジェクト内容を開いています...",
+        form_email_sending: "プロジェクト内容を送信中...",
+        form_email_sent: "ありがとうございます。内容を送信しました。",
+        form_email_fallback: "Emailサービスが未設定です。メールアプリを開きます...",
+        email_subject: "{name} からのプロジェクト相談",
+        email_name: "名前",
+        email_email: "Email",
+        email_service: "プロジェクト種別",
+        email_details: "プロジェクト詳細"
       }
     },
     zh: {
       metaTitle: "Pras | 巴厘岛专业网站开发服务",
       metaDescription:
-        "Pras 在巴厘岛提供网站开发、WordPress、UI/UX、品牌设计与 AI 实施服务。范围和价格可根据需求与预算调整。",
+        "Pras 在巴厘岛提供专业网站开发、WordPress、UI/UX、品牌设计和 AI 实施服务。范围和价格可根据需求与预算调整。",
       strings: {
-        brand_role: "数字合作伙伴",
-        nav_services: "服务",
-        nav_pricing: "价格",
-        nav_process: "流程",
-        nav_contact: "联系",
-        language_label: "语言",
-        language_auto: "自动",
-        hero_eyebrow: "巴厘岛专业网站开发服务",
-        hero_lead:
-          "我帮助企业主、专业人士和服务提供者通过网站、应用、品牌、UI/UX 与 AI 解决方案建立更可信的数字形象。",
-        hero_cta_primary: "开始项目",
-        hero_cta_secondary: "查看服务",
-        intro_title: "网站应该在客户联系你之前就建立信任。",
-        services_kicker: "服务",
-        services_title: "让你的品牌更真实可信的数字支持。",
-        pricing_kicker: "灵活定价",
-        pricing_title: "项目范围会根据需求、目标和预算调整。",
-        planner_kicker: "项目规划",
-        planner_title: "明确第一次沟通方向",
-        process_kicker: "流程",
-        process_title: "清晰执行、稳定沟通、实用结果。",
-        audience_kicker: "服务对象",
-        audience_title: "为需要传递信任的人而建。",
-        relationship_kicker: "长期合作",
-        relationship_title: "我不只是一次性的开发者，而是你的长期数字伙伴。",
-        contact_kicker: "从这里开始",
-        contact_title: "告诉我你想构建什么。",
-        form_submit: "发送项目简报",
-        footer_body: "巴厘岛专业网站开发与数字解决方案。"
+        skip: "跳到桌面",
+        shortcut_about: "关于我",
+        shortcut_resume: "我的简介",
+        shortcut_projects: "我的项目",
+        shortcut_contact: "联系我",
+        window_about_title: "关于我",
+        window_resume_title: "我的简介",
+        window_projects_title: "我的项目",
+        window_contact_title: "联系我",
+        about_intro:
+          "来自巴厘岛的数字合作伙伴，帮助企业主、专业人士和服务提供者建立更可信的线上形象。",
+        about_stat_1: "3年以上",
+        about_stat_1_label: "网站开发经验",
+        about_stat_2: "信息系统",
+        about_stat_2_label: "本科学历背景",
+        about_stat_3: "灵活范围",
+        about_stat_3_label: "根据需求和预算调整",
+        about_body:
+          "我以长期合作为目标，构建网站、Web 应用、CMS、UI/UX、品牌基础和 AI 支持的工作流程。",
+        resume_title: "能力简介",
+        resume_note_title: "价格说明",
+        resume_note_body:
+          "项目范围和价格会根据目标、时间、复杂度和预算进行调整。",
+        projects_title: "数字服务",
+        project_1_title: "定制网站",
+        project_1_body: "为企业和服务品牌打造可信、响应式的网站。",
+        project_2_title: "Web 应用",
+        project_2_body: "为自定义流程开发现代前端和后端系统。",
+        project_3_title: "CMS & WordPress",
+        project_3_body: "易于管理的内容系统，包括 Headless WordPress。",
+        project_4_title: "设计 & AI",
+        project_4_body: "UI/UX、品牌指南、Logo 设计和实用 AI 功能。",
+        form_name: "您的姓名",
+        form_email: "Email",
+        form_project_type: "项目类型",
+        form_service_website: "网站",
+        form_service_app: "Web 应用",
+        form_service_cms: "WordPress 或 CMS",
+        form_service_design: "UI/UX 或品牌",
+        form_service_ai: "AI 实施",
+        form_service_unsure: "还不确定",
+        form_details: "项目详情",
+        form_placeholder: "请告诉我您的需求、目标、时间安排和预算范围。",
+        form_submit_whatsapp: "通过 WhatsApp 发送",
+        form_submit_email: "通过 Email 发送",
+        form_missing: "请先填写必填字段。",
+        form_whatsapp_opening: "正在用 WhatsApp 打开您的项目简报...",
+        form_email_sending: "正在发送您的项目简报...",
+        form_email_sent: "谢谢。您的项目简报已发送。",
+        form_email_fallback: "Email 服务尚未准备好，正在打开您的邮件应用...",
+        email_subject: "{name} 的项目咨询",
+        email_name: "姓名",
+        email_email: "Email",
+        email_service: "项目类型",
+        email_details: "项目详情"
       }
     }
   };
 
-  Object.entries(extraLocaleStrings).forEach(([locale, data]) => {
+  Object.entries(extraLocales).forEach(([locale, data]) => {
     locales[locale] = {
-      ...locales.en,
-      ...data,
+      metaTitle: data.metaTitle,
+      metaDescription: data.metaDescription,
       strings: {
         ...locales.en.strings,
         ...data.strings
@@ -629,26 +456,8 @@
     };
   });
 
-  let selectedTimeline = "steady";
   let currentLocale = "en";
-  let currentPreference = "auto";
-  let animationsReady = false;
-
-  function readStoredPreference() {
-    try {
-      return localStorage.getItem(localeStorageKey) || "auto";
-    } catch {
-      return "auto";
-    }
-  }
-
-  function storePreference(value) {
-    try {
-      localStorage.setItem(localeStorageKey, value);
-    } catch {
-      return;
-    }
-  }
+  let zIndex = 20;
 
   function getBrowserLanguages() {
     return Array.from(new Set([...(navigator.languages || []), navigator.language].filter(Boolean)));
@@ -665,62 +474,38 @@
       }
     }
 
-    if (indonesianTimeZones.includes(timeZone)) {
-      return "id";
-    }
-
-    return "en";
+    return indonesianTimeZones.includes(timeZone) ? "id" : "en";
   }
 
-  function getLocaleData(locale = currentLocale) {
-    return locales[locale] || locales.en;
+  function readStoredPreference() {
+    try {
+      return localStorage.getItem(localeStorageKey) || "auto";
+    } catch {
+      return "auto";
+    }
+  }
+
+  function getLocaleData() {
+    return locales[currentLocale] || locales.en;
   }
 
   function t(key) {
-    const active = getLocaleData();
-    return active.strings[key] || locales.en.strings[key] || key;
+    return getLocaleData().strings[key] || locales.en.strings[key] || key;
   }
 
-  function setMeta(localeData) {
+  function applyLocale() {
+    const stored = readStoredPreference();
+    currentLocale = stored === "auto" ? detectLocale() : stored;
     document.documentElement.lang = currentLocale;
-    document.title = localeData.metaTitle || locales.en.metaTitle;
+    document.title = getLocaleData().metaTitle;
 
     const description = document.querySelector('meta[name="description"]');
     const ogTitle = document.querySelector('meta[property="og:title"]');
     const ogDescription = document.querySelector('meta[property="og:description"]');
 
-    if (description) {
-      description.setAttribute("content", localeData.metaDescription || locales.en.metaDescription);
-    }
-
-    if (ogTitle) {
-      ogTitle.setAttribute("content", localeData.metaTitle || locales.en.metaTitle);
-    }
-
-    if (ogDescription) {
-      ogDescription.setAttribute("content", localeData.metaDescription || locales.en.metaDescription);
-    }
-  }
-
-  function renderList(element, items) {
-    element.innerHTML = "";
-    items.forEach((item) => {
-      const li = document.createElement("li");
-      li.textContent = item;
-      element.appendChild(li);
-    });
-  }
-
-  function applyLocale(preference = "auto", shouldStore = true) {
-    currentPreference = preference;
-    currentLocale = preference === "auto" ? detectLocale() : preference;
-
-    if (!supportedLocales.includes(currentLocale)) {
-      currentLocale = "en";
-    }
-
-    const localeData = getLocaleData();
-    setMeta(localeData);
+    description?.setAttribute("content", getLocaleData().metaDescription);
+    ogTitle?.setAttribute("content", getLocaleData().metaTitle);
+    ogDescription?.setAttribute("content", getLocaleData().metaDescription);
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       element.textContent = t(element.dataset.i18n);
@@ -729,200 +514,180 @@
     document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
       element.setAttribute("placeholder", t(element.dataset.i18nPlaceholder));
     });
-
-    document.querySelectorAll("[data-i18n-list]").forEach((element) => {
-      const key = element.dataset.i18nList;
-      renderList(element, localeData.lists[key] || locales.en.lists[key] || []);
-    });
-
-    const languageSelect = document.querySelector("#languageSelect");
-    if (languageSelect) {
-      languageSelect.value = preference;
-    }
-
-    if (shouldStore) {
-      storePreference(preference);
-    }
-
-    updatePlanner(false);
-
-    if (window.ScrollTrigger) {
-      window.ScrollTrigger.refresh();
-    }
   }
 
-  function getPlannerData() {
-    return getLocaleData().planner || locales.en.planner;
+  function getWindow(id) {
+    return document.querySelector(`[data-window="${id}"]`);
   }
 
-  function animatePlannerResult() {
-    if (!animationsReady || !window.gsap || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  function getWindowTitle(id) {
+    const windowElement = getWindow(id);
+    return windowElement?.querySelector(".xp-titlebar span")?.textContent || id;
+  }
+
+  function focusWindow(windowElement) {
+    if (!windowElement) {
       return;
     }
 
-    window.gsap.fromTo(
-      "#fitTitle, #fitList li",
-      { opacity: 0, y: 10 },
-      { opacity: 1, y: 0, duration: 0.38, stagger: 0.045, ease: "power2.out" }
-    );
+    zIndex += 1;
+    document.querySelectorAll(".xp-window").forEach((item) => item.classList.remove("active"));
+    windowElement.classList.add("active");
+    windowElement.style.zIndex = String(zIndex);
   }
 
-  function updatePlanner(shouldAnimate = true) {
-    const projectType = document.querySelector("#projectType");
-    const budgetRange = document.querySelector("#budgetRange");
-    const budgetLabel = document.querySelector("#budgetLabel");
-    const priorityType = document.querySelector("#priorityType");
-    const fitTitle = document.querySelector("#fitTitle");
-    const fitList = document.querySelector("#fitList");
+  function renderTaskbar() {
+    const taskbarApps = document.querySelector("#taskbarApps");
+    taskbarApps.innerHTML = "";
 
-    if (!projectType || !budgetRange || !budgetLabel || !priorityType || !fitTitle || !fitList) {
-      return;
-    }
-
-    const planner = getPlannerData();
-    const recommendation = planner.recommendations[projectType.value] || planner.recommendations.business;
-    const budgetText = planner.budgetLabels[budgetRange.value] || planner.budgetLabels[2];
-    const budgetNote = t("budget_scope_note").replace("{budget}", budgetText);
-    const notes = [
-      ...recommendation.items,
-      budgetNote,
-      planner.priorities[priorityType.value],
-      planner.timelines[selectedTimeline]
-    ].filter(Boolean);
-
-    budgetLabel.textContent = budgetText;
-    fitTitle.textContent = recommendation.title;
-    renderList(fitList, notes);
-
-    if (shouldAnimate) {
-      animatePlannerResult();
-    }
-  }
-
-  function initNavigation() {
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navMenu = document.querySelector(".nav-menu");
-    const navLinks = document.querySelectorAll(".nav-menu a");
-    const sections = document.querySelectorAll("main section[id]");
-
-    menuToggle?.addEventListener("click", () => {
-      const isOpen = navMenu.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", String(isOpen));
-      document.body.classList.toggle("menu-open", isOpen);
-    });
-
-    navLinks.forEach((link) => {
-      link.addEventListener("click", () => {
-        navMenu.classList.remove("open");
-        menuToggle?.setAttribute("aria-expanded", "false");
-        document.body.classList.remove("menu-open");
-      });
-    });
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) {
-            return;
-          }
-
-          navLinks.forEach((link) => {
-            link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
-          });
-        });
-      },
-      { rootMargin: "-45% 0px -45% 0px", threshold: 0 }
-    );
-
-    sections.forEach((section) => observer.observe(section));
-  }
-
-  function initPlanner() {
-    document.querySelector("#projectType")?.addEventListener("change", () => updatePlanner());
-    document.querySelector("#budgetRange")?.addEventListener("input", () => updatePlanner());
-    document.querySelector("#priorityType")?.addEventListener("change", () => updatePlanner());
-
-    document.querySelectorAll("[data-timeline]").forEach((button) => {
+    document.querySelectorAll(".xp-window:not([hidden])").forEach((windowElement) => {
+      const id = windowElement.dataset.window;
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = getWindowTitle(id);
       button.addEventListener("click", () => {
-        selectedTimeline = button.dataset.timeline;
-
-        document.querySelectorAll("[data-timeline]").forEach((item) => {
-          item.classList.toggle("active", item === button);
-        });
-
-        updatePlanner();
+        focusWindow(windowElement);
       });
+      taskbarApps.appendChild(button);
     });
   }
 
-  function initLanguageSelect() {
-    const languageSelect = document.querySelector("#languageSelect");
-    if (!languageSelect) {
+  function openWindow(id) {
+    const windowElement = getWindow(id);
+
+    if (!windowElement) {
       return;
     }
 
-    languageSelect.addEventListener("change", (event) => {
-      applyLocale(event.target.value);
+    windowElement.hidden = false;
+    focusWindow(windowElement);
+    renderTaskbar();
+
+    if (window.gsap) {
+      window.gsap.fromTo(
+        windowElement,
+        { opacity: 0, scale: 0.96, y: 12 },
+        { opacity: 1, scale: 1, y: 0, duration: 0.22, ease: "power2.out" }
+      );
+    }
+  }
+
+  function closeWindow(button) {
+    const windowElement = button.closest(".xp-window");
+    windowElement.hidden = true;
+    windowElement.classList.remove("active");
+    renderTaskbar();
+  }
+
+  function minimizeWindow(button) {
+    const windowElement = button.closest(".xp-window");
+    windowElement.hidden = true;
+    renderTaskbar();
+  }
+
+  function initDesktop() {
+    document.querySelectorAll("[data-open-window]").forEach((button) => {
+      button.addEventListener("click", () => {
+        openWindow(button.dataset.openWindow);
+        document.querySelector("#startMenu").hidden = true;
+        document.querySelector("#startButton").setAttribute("aria-expanded", "false");
+      });
     });
+
+    document.querySelectorAll("[data-close-window]").forEach((button) => {
+      button.addEventListener("click", () => closeWindow(button));
+    });
+
+    document.querySelectorAll("[data-minimize-window]").forEach((button) => {
+      button.addEventListener("click", () => minimizeWindow(button));
+    });
+
+    document.querySelectorAll(".xp-window").forEach((windowElement) => {
+      windowElement.addEventListener("pointerdown", () => focusWindow(windowElement));
+    });
+
+    const startButton = document.querySelector("#startButton");
+    const startMenu = document.querySelector("#startMenu");
+
+    startButton.addEventListener("click", () => {
+      const isHidden = startMenu.hidden;
+      startMenu.hidden = !isHidden;
+      startButton.setAttribute("aria-expanded", String(isHidden));
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!startMenu.hidden && !startMenu.contains(event.target) && !startButton.contains(event.target)) {
+        startMenu.hidden = true;
+        startButton.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
+  function updateClock() {
+    const clock = document.querySelector("#clock");
+    const now = new Date();
+    clock.textContent = now.toLocaleTimeString([], {
+      hour: "numeric",
+      minute: "2-digit"
+    });
+  }
+
+  function getFormPayload(briefForm) {
+    const formData = new FormData(briefForm);
+    const serviceSelect = document.querySelector("#contactService");
+
+    return {
+      name: formData.get("name").toString().trim(),
+      email: formData.get("email").toString().trim(),
+      service: serviceSelect?.selectedOptions[0]?.textContent.trim() || formData.get("service").toString(),
+      message: formData.get("message").toString().trim(),
+      locale: currentLocale
+    };
+  }
+
+  function buildBriefText(payload) {
+    return `${t("email_name")}: ${payload.name}\n${t("email_email")}: ${payload.email}\n${t("email_service")}: ${payload.service}\n\n${t("email_details")}:\n${payload.message}`;
+  }
+
+  function openMailDraft(payload) {
+    const subject = encodeURIComponent(t("email_subject").replace("{name}", payload.name));
+    const body = encodeURIComponent(buildBriefText(payload));
+    window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
+  }
+
+  function openWhatsapp(payload) {
+    const text = encodeURIComponent(
+      `${t("email_subject").replace("{name}", payload.name)}\n\n${buildBriefText(payload)}`
+    );
+
+    window.open(`https://wa.me/${whatsappNumber}?text=${text}`, "_blank", "noopener");
+  }
+
+  async function sendEmail(payload) {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(result.error || "Unable to send email");
+    }
+
+    return result;
   }
 
   function initForm() {
     const briefForm = document.querySelector("#briefForm");
     const formStatus = document.querySelector("#formStatus");
 
-    function getFormPayload() {
-      const formData = new FormData(briefForm);
-      const serviceSelect = document.querySelector("#contactService");
-
-      return {
-        name: formData.get("name").toString().trim(),
-        email: formData.get("email").toString().trim(),
-        service: serviceSelect?.selectedOptions[0]?.textContent.trim() || formData.get("service").toString(),
-        message: formData.get("message").toString().trim(),
-        locale: currentLocale
-      };
-    }
-
-    function buildBriefText(payload) {
-      return `${t("email_name")}: ${payload.name}\n${t("email_email")}: ${payload.email}\n${t("email_service")}: ${payload.service}\n\n${t("email_details")}:\n${payload.message}`;
-    }
-
-    function openMailDraft(payload) {
-      const subject = encodeURIComponent(t("email_subject").replace("{name}", payload.name));
-      const body = encodeURIComponent(buildBriefText(payload));
-      window.location.href = `mailto:${businessEmail}?subject=${subject}&body=${body}`;
-    }
-
-    function openWhatsapp(payload) {
-      const text = encodeURIComponent(
-        `${t("email_subject").replace("{name}", payload.name)}\n\n${buildBriefText(payload)}`
-      );
-
-      window.open(`https://wa.me/${whatsappNumber}?text=${text}`, "_blank", "noopener");
-    }
-
-    async function sendEmail(payload) {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
-      });
-
-      const result = await response.json().catch(() => ({}));
-
-      if (!response.ok) {
-        throw new Error(result.error || "Unable to send email");
-      }
-
-      return result;
-    }
-
     briefForm?.addEventListener("submit", async (event) => {
       event.preventDefault();
-
-      const payload = getFormPayload();
+      const payload = getFormPayload(briefForm);
       const channel = event.submitter?.value || "whatsapp";
 
       if (!payload.name || !payload.email || !payload.message) {
@@ -949,75 +714,32 @@
     });
   }
 
-  function initAnimations() {
-    if (!window.gsap || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  function initAnimation() {
+    if (!window.gsap) {
       return;
     }
 
-    const { gsap } = window;
-    animationsReady = true;
-
-    if (window.ScrollTrigger) {
-      gsap.registerPlugin(window.ScrollTrigger);
-    }
-
-    gsap
-      .timeline({ defaults: { ease: "power3.out", duration: 0.78 } })
-      .from(".brand, .nav-menu a, .language-shell", { y: -14, opacity: 0, stagger: 0.045 })
-      .from(".hero-line", { y: 34, opacity: 0, stagger: 0.09 }, "-=0.35")
-      .from(".hero-proof-item", { y: 24, opacity: 0, stagger: 0.08 }, "-=0.28")
-      .from(".strip-track span", { y: 12, opacity: 0, stagger: 0.035 }, "-=0.32");
-
-    if (window.ScrollTrigger) {
-      gsap.utils.toArray("[data-animate]").forEach((element) => {
-        gsap.from(element, {
-          y: 34,
-          opacity: 0,
-          duration: 0.72,
-          ease: "power3.out",
-          scrollTrigger: {
-            trigger: element,
-            start: "top 84%",
-            once: true
-          }
-        });
-      });
-
-      gsap.to(".hero", {
-        backgroundPosition: "center 44%",
-        ease: "none",
-        scrollTrigger: {
-          trigger: ".hero",
-          start: "top top",
-          end: "bottom top",
-          scrub: true
-        }
-      });
-    }
-
-    document.querySelectorAll(".service-card, .audience-grid article").forEach((card) => {
-      card.addEventListener("pointerenter", () => {
-        gsap.to(card, { y: -6, duration: 0.22, ease: "power2.out" });
-      });
-
-      card.addEventListener("pointerleave", () => {
-        gsap.to(card, { y: 0, duration: 0.22, ease: "power2.out" });
-      });
+    window.gsap.from(".desktop-icon", {
+      opacity: 0,
+      y: 12,
+      duration: 0.3,
+      stagger: 0.08,
+      ease: "power2.out"
     });
   }
 
-  function initApp() {
-    initNavigation();
-    initPlanner();
-    initLanguageSelect();
+  function init() {
+    applyLocale();
+    initDesktop();
     initForm();
-    applyLocale(readStoredPreference(), false);
-    initAnimations();
+    updateClock();
+    setInterval(updateClock, 30000);
+    initAnimation();
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initApp);
+    document.addEventListener("DOMContentLoaded", init);
   } else {
-    initApp();
+    init();
   }
 })();
